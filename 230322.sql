@@ -1,0 +1,10 @@
+select * from ansboard;
+select no, title, content, id, ip, refno, lv, step from ansboard;
+update ansboard set title='replytest1' where no=15;
+select * from user_sequences;
+commit;
+select * from ansboard order by refno desc,step;
+select * from regist;
+update regist set email = 'cancereal@gmail.com' where id = 'test1';
+delete from regist where id = 'test2';
+select rpad(substr(id,1,length(id)/2),length(id),'*') id from regist where email like 'asgg%';
