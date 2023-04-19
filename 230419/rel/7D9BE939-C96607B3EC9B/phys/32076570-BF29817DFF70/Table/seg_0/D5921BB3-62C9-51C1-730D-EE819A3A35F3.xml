@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="CAMPINVEN" directorySegmentName="seg_0" id="D5921BB3-62C9-51C1-730D-EE819A3A35F3">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:40 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+<schemaObject>58DA281E-5F9B-09F7-4007-C730D7C472A6</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>84BE2D7F-1AF5-1A07-8E80-A474BCE998E5</segment>
+<tableSpace>3113D635-C4BC-D9F8-9C0F-81021DF4C78F</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="GOODNO" id="0001436A-7CC2-7D2F-34A0-506A490A2FC4">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:40 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODE" id="5C33A5E9-0D99-AE54-4ADE-021753305E02">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:40 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IDLE" id="802D2523-6820-4298-7812-50ACC29B27B7">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:40 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOW" id="BB591D21-E40C-3F75-4E95-E48A14E71989">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:40 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_CAMPINFO_TO_CAMPINVEN" id="174F2FBE-8942-87F4-DC0E-9269720818E3">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:42 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="306D5636-A510-0B3C-9041-27E4D72628C0" containerWithKeyObject="1766DF19-A2E3-CAD3-71B1-0ABF58192BCE" localFKIndex="629A2644-558A-8110-0E81-C43032E29A89" name="FK_USECOUPON_TO_SELLINFO">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>FK_USECOUPON_TO_SELLINFO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:42 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+<referredTableLongName>SCOTT.USECOUPON</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B6FCF9D4-4B87-CB49-3BA1-F376A9FE2BB7</referredTableID>
+<keyObject>4CCF51C0-6030-ED15-3FBE-3E85419ED1A7</keyObject>
+<referredKeyID>4CCF51C0-6030-ED15-3FBE-3E85419ED1A7</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>COUPONCODE,EMPNO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

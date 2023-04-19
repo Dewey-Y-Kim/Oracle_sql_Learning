@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="CUSTOMINFO" directorySegmentName="seg_0" id="3F6031A4-85E8-1DEF-4AB5-71F25F0E4EF6">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:40 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+<schemaObject>58DA281E-5F9B-09F7-4007-C730D7C472A6</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>84BE2D7F-1AF5-1A07-8E80-A474BCE998E5</segment>
+<tableSpace>3113D635-C4BC-D9F8-9C0F-81021DF4C78F</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="BIRTH" id="03246A0D-270C-C586-9F7E-81B2B778E877">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:40 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TEL" id="0A5D4692-13E6-7A9B-230E-88C30D541F53">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:40 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ADDR" id="1D196251-EED4-F8B4-2DF1-667566076698">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:40 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GENDER" id="2D84EB46-7584-2D5E-0869-1D0DDD707903">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:40 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODE" id="76913530-9584-70B8-2D8B-BBF7A9E2B9BA">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:40 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAME" id="8458A772-F659-8A1F-4271-409F06D92628">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:40 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REGISTDATE" id="A02D7D4E-CE3F-9936-94DE-909C1F319963">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:40 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUSTOMNO" id="AB1B0C1B-699B-B1F5-F559-A94A8E3CE918">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:40 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MEMO" id="CC7283FE-BAEF-D59B-C493-6C8E2CFA3FDE">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:40 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMAIL" id="D5740B16-8C06-D40F-8281-CA860CAAB012">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:40 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_CUSTOMINFO" id="9FCD345F-1EFC-7095-7307-A00E54A3B900">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:41 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+<schemaObject>58DA281E-5F9B-09F7-4007-C730D7C472A6</schemaObject>
+<segment>9F060209-237F-49B7-D690-DFB7E0362E7E</segment>
+<tableSpace>3113D635-C4BC-D9F8-9C0F-81021DF4C78F</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_CAMPINFO_TO_CUSTOMINFO" id="B883BB74-CD70-29F7-620D-4AAE224D7E20">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:42 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_CUSTOMINFO" id="29736A06-AE72-3FDD-6113-E56743F7120F">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:41 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+<segment>9F060209-237F-49B7-D690-DFB7E0362E7E</segment>
+<tableSpace>3113D635-C4BC-D9F8-9C0F-81021DF4C78F</tableSpace>
+<existingIndex>9FCD345F-1EFC-7095-7307-A00E54A3B900</existingIndex>
+<indexSegment>9F060209-237F-49B7-D690-DFB7E0362E7E</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

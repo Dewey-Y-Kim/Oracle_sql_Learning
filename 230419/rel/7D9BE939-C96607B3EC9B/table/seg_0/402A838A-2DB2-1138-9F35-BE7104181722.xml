@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="402A838A-2DB2-1138-9F35-BE7104181722" schemaObject="58DA281E-5F9B-09F7-4007-C730D7C472A6" name="COUPONINFO">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>COUPONINFO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:40 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COUPONCODE" id="77AAB0B0-2B0E-20A9-9B54-070775B7C601">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>COUPONINFO</sourceObjSchema>
+<sourceObjName>COUPONCODE</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:40 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USABLENUM" id="FDE66437-1DF8-D0B3-C18C-9051F2361133">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>COUPONINFO</sourceObjSchema>
+<sourceObjName>USABLENUM</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:40 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AUTH" id="D3C88698-B203-9BFF-98BD-CBDE00196E16">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>COUPONINFO</sourceObjSchema>
+<sourceObjName>AUTH</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:40 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DISCOUNT" id="11619A1F-1141-C32C-1461-81DB053BEAE3">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>COUPONINFO</sourceObjSchema>
+<sourceObjName>DISCOUNT</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:40 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEADLINE" id="F9AB06AB-E466-4A04-A5D5-226C6E3D1406">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>COUPONINFO</sourceObjSchema>
+<sourceObjName>DEADLINE</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:40 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="61F5804F-7349-FFC9-788A-C71617B1B2F8" name="PK_COUPONINFO">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>PK_COUPONINFO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:41 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77AAB0B0-2B0E-20A9-9B54-070775B7C601"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C901D5E9-186A-6AD3-F1F8-6CD04C0794CC" schemaObject="58DA281E-5F9B-09F7-4007-C730D7C472A6" name="PK_COUPONINFO">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>PK_COUPONINFO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:41 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77AAB0B0-2B0E-20A9-9B54-070775B7C601"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

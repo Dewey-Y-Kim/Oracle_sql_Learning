@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="EMPINFO" directorySegmentName="seg_0" id="5A9047B2-ECB8-D09D-13AB-7AF630A38F38">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:40 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+<schemaObject>58DA281E-5F9B-09F7-4007-C730D7C472A6</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>84BE2D7F-1AF5-1A07-8E80-A474BCE998E5</segment>
+<tableSpace>3113D635-C4BC-D9F8-9C0F-81021DF4C78F</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="AUTH" id="1BEAF158-6BAF-A94E-A841-1B41A0B5481A">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:40 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ENAME" id="243FC0A1-91FD-A413-92D4-17084315AB7A">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:40 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMPNO" id="4684B058-5184-D9F6-9BBF-D798ED85F64E">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:40 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMPDATE" id="648C9F71-8C3F-BDBC-4B18-01EFFF189961">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:40 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+<defaultValue>Sysdate</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="PWD" id="6F60A599-BAD2-D735-FE28-99368328B435">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:40 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODE" id="DCDAF208-891E-F587-4EEE-4C2704062CA0">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:40 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_EMPINFO" id="2844D222-6270-5F8D-540B-9F5443720885">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:41 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+<schemaObject>58DA281E-5F9B-09F7-4007-C730D7C472A6</schemaObject>
+<segment>9F060209-237F-49B7-D690-DFB7E0362E7E</segment>
+<tableSpace>3113D635-C4BC-D9F8-9C0F-81021DF4C78F</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_CAMPINFO_TO_EMPINFO" id="82D3F0B4-890F-8203-0A8F-93B54AE33494">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:42 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_EMPINFO" id="BA81F61F-8542-5C76-69F8-EAC46233036C">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:41 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+<segment>9F060209-237F-49B7-D690-DFB7E0362E7E</segment>
+<tableSpace>3113D635-C4BC-D9F8-9C0F-81021DF4C78F</tableSpace>
+<existingIndex>2844D222-6270-5F8D-540B-9F5443720885</existingIndex>
+<indexSegment>9F060209-237F-49B7-D690-DFB7E0362E7E</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

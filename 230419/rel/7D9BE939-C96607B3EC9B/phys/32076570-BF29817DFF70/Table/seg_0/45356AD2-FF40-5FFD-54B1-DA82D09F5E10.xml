@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="NOTICEBBS" directorySegmentName="seg_0" id="45356AD2-FF40-5FFD-54B1-DA82D09F5E10">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:40 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+<schemaObject>58DA281E-5F9B-09F7-4007-C730D7C472A6</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>84BE2D7F-1AF5-1A07-8E80-A474BCE998E5</segment>
+<tableSpace>3113D635-C4BC-D9F8-9C0F-81021DF4C78F</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="TITLE" id="6D7A1164-1585-4E2F-FF7B-4627CA202CB9">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:40 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NO" id="9F5E8217-CC75-4413-A50E-0E2C3642E086">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:40 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CONTENT" id="9FA75A91-4A32-5468-FA40-D7D5BFD569CB">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:40 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="HIT" id="BF12C15B-5F4C-5491-8519-5179DEAE5482">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:40 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="WRITEDATE" id="C2C5E6A2-E877-07D7-C367-EFB08C02DD65">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:40 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+<defaultValue>Sysdate</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="EMPNO" id="E49E57B2-8748-F1EF-22C3-A5EB28427A59">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:40 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_NOTICEBBS" id="9A5B5F2F-71B7-8250-A590-A59B91C17CBC">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:41 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+<schemaObject>58DA281E-5F9B-09F7-4007-C730D7C472A6</schemaObject>
+<segment>9F060209-237F-49B7-D690-DFB7E0362E7E</segment>
+<tableSpace>3113D635-C4BC-D9F8-9C0F-81021DF4C78F</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_EMPINFO_TO_NOTICEBBS" id="DE1F4804-BD58-1EB5-0334-5B532D047B9E">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:42 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_NOTICEBBS" id="852DD4F0-2550-865A-61D4-DAA86FBF4A6F">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:41 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+<segment>9F060209-237F-49B7-D690-DFB7E0362E7E</segment>
+<tableSpace>3113D635-C4BC-D9F8-9C0F-81021DF4C78F</tableSpace>
+<existingIndex>9A5B5F2F-71B7-8250-A590-A59B91C17CBC</existingIndex>
+<indexSegment>9F060209-237F-49B7-D690-DFB7E0362E7E</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

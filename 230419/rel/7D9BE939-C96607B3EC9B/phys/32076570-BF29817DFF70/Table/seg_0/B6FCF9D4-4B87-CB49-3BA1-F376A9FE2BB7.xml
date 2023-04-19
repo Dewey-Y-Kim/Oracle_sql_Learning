@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="USECOUPON" directorySegmentName="seg_0" id="B6FCF9D4-4B87-CB49-3BA1-F376A9FE2BB7">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:40 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+<schemaObject>58DA281E-5F9B-09F7-4007-C730D7C472A6</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>84BE2D7F-1AF5-1A07-8E80-A474BCE998E5</segment>
+<tableSpace>3113D635-C4BC-D9F8-9C0F-81021DF4C78F</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="EMPNO" id="30623759-D6DA-8F34-1210-C112909C7403">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:40 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COUPONCODE" id="7541AE8E-AF18-57A0-AF8F-8FB0FCC80488">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:40 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USEDNUM" id="98B0FAB0-8ECF-54FF-B8C6-A5648A44D883">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:40 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_USECOUPON" id="FD0010F6-6B4D-4C25-C966-450A6EFA40C3">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:41 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+<schemaObject>58DA281E-5F9B-09F7-4007-C730D7C472A6</schemaObject>
+<segment>9F060209-237F-49B7-D690-DFB7E0362E7E</segment>
+<tableSpace>3113D635-C4BC-D9F8-9C0F-81021DF4C78F</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_EMPINFO_TO_USECOUPON" id="37E27778-8C7D-4DDA-581B-D0DE4FEAD1CA">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:42 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_COUPONINFO_TO_USECOUPON" id="97FFE394-DB87-CF19-2036-4743E6F0B988">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:42 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_USECOUPON" id="4CCF51C0-6030-ED15-3FBE-3E85419ED1A7">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:41 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+<segment>9F060209-237F-49B7-D690-DFB7E0362E7E</segment>
+<tableSpace>3113D635-C4BC-D9F8-9C0F-81021DF4C78F</tableSpace>
+<existingIndex>FD0010F6-6B4D-4C25-C966-450A6EFA40C3</existingIndex>
+<indexSegment>9F060209-237F-49B7-D690-DFB7E0362E7E</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

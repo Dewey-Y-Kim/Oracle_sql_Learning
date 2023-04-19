@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B6FCF9D4-4B87-CB49-3BA1-F376A9FE2BB7" schemaObject="58DA281E-5F9B-09F7-4007-C730D7C472A6" name="USECOUPON">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>USECOUPON</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:40 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COUPONCODE" id="7541AE8E-AF18-57A0-AF8F-8FB0FCC80488">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>USECOUPON</sourceObjSchema>
+<sourceObjName>COUPONCODE</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:40 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4D1517B3-0B2D-DC81-1239-AEB5E26E4CE1" referredColumn="77AAB0B0-2B0E-20A9-9B54-070775B7C601"/>
+</associations>
+</Column>
+<Column name="EMPNO" id="30623759-D6DA-8F34-1210-C112909C7403">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>USECOUPON</sourceObjSchema>
+<sourceObjName>EMPNO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:40 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7C9AFDC9-C321-585E-3D7F-0FA76EB9E09F" referredColumn="4684B058-5184-D9F6-9BBF-D798ED85F64E"/>
+</associations>
+</Column>
+<Column name="USEDNUM" id="98B0FAB0-8ECF-54FF-B8C6-A5648A44D883">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>USECOUPON</sourceObjSchema>
+<sourceObjName>USEDNUM</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:40 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4CCF51C0-6030-ED15-3FBE-3E85419ED1A7" name="PK_USECOUPON">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>PK_USECOUPON</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:41 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7541AE8E-AF18-57A0-AF8F-8FB0FCC80488"/>
+<colUsage columnID="30623759-D6DA-8F34-1210-C112909C7403"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FD0010F6-6B4D-4C25-C966-450A6EFA40C3" schemaObject="58DA281E-5F9B-09F7-4007-C730D7C472A6" name="PK_USECOUPON">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>PK_USECOUPON</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:41 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7541AE8E-AF18-57A0-AF8F-8FB0FCC80488"/>
+<colUsage columnID="30623759-D6DA-8F34-1210-C112909C7403"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="97FFE394-DB87-CF19-2036-4743E6F0B988" name="FK_COUPONINFO_TO_USECOUPON">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:42 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7541AE8E-AF18-57A0-AF8F-8FB0FCC80488"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="37E27778-8C7D-4DDA-581B-D0DE4FEAD1CA" name="FK_EMPINFO_TO_USECOUPON">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-19 01:01:42 UTC</createdTime>
+<ownerDesignName>230419</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30623759-D6DA-8F34-1210-C112909C7403"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
