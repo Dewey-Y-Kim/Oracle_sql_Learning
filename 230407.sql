@@ -1,5 +1,5 @@
 select * from tab;
-purge RECYCLEBIN;
+
 /* 고객정보 */
 DROP TABLE customInfo 
 	CASCADE CONSTRAINTS;
@@ -27,10 +27,11 @@ DROP TABLE empInfo
 /* 거래처정보 */
 DROP TABLE SellerInfo 
 	CASCADE CONSTRAINTS;
-
+purge RECYCLEBIN;
+select * from user_sequences;
 /* 고객정보 */
 CREATE TABLE customInfo (
-	customNo NUMBER(10) NOT NULL, /* 고객번호 */
+	customNo NUMBER(10), /* 고객번호 */
 	name VARCHAR2(300) NOT NULL, /* 이름 */
 	birth DATE, /* 생년월일 */
 	email VARCHAR2(300), /* 이메일 */
@@ -38,7 +39,7 @@ CREATE TABLE customInfo (
 	tel VARCHAR2(12) NOT NULL, /* 전화번호 */
 	gender VARCHAR2(1), /* 성별 */
 	memo VARCHAR2(2000), /* 메모 */
-	registDate DATE, /* 가입일 */
+	registDate DATE default sysdate, /* 가입일 */
 	code VARCHAR2(10) /* 가입매장 */
 );
 
@@ -86,7 +87,8 @@ CREATE TABLE CampInfo (
 	empno NUMBER(10) NOT NULL, /* 대표 */
 	bussinessNo varchar2(12) NOT NULL, /* 사업자번호 */
 	tel varchar2(15) NOT NULL, /* 전화번호 */
-	fax VARCHAR2(15) /* 팩스번호 */
+	fax VARCHAR2(15), /* 팩스번호 */
+    createdate date default sysdate
 );
 
 ALTER TABLE CampInfo

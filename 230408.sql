@@ -1,0 +1,12 @@
+select * from tab;
+select * from empInfo;
+create sequence emp_sq;
+create sequence code_sq;
+create sequence custom_sq;
+create sequence good_sq;
+create sequence seller_sq;
+select * from sellerinfo;
+alter table sellerinfo modify sellercode default seller_sq.nextval;
+ALTER TABLE sellerinfo MODIFY sellercode DEFAULT 'seller_sq.NEXTVAL';
+desc sellerinfo;
+purge recyclebin;
