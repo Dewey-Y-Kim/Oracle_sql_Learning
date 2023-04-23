@@ -31,3 +31,18 @@ select * from
 		<![CDATA[where rownum<=${lastPageRec} order by no desc]]>
 		</when>
 		</choose>
+        
+        
+;
+select * from noticeBBS where hit>0;
+select * from user_sequences;
+select notice_sq.nextval from dual;
+
+update noticeBBS set title='chk', content='rechk' where no=161;
+commit;
+select * from tab;
+select * from sellerinfo;
+desc sellerinfo;
+select * from noticeBBS;
+update noticebbs set hit=0;
+alter table noticebbs modify hit default 0;

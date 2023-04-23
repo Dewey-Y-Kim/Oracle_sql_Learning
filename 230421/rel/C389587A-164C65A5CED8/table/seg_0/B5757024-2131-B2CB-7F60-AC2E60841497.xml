@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B5757024-2131-B2CB-7F60-AC2E60841497" schemaObject="443E67C4-A997-5989-E3E9-9A278A090ED6" name="CAMPINFO">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>CAMPINFO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-21 06:17:19 UTC</createdTime>
+<ownerDesignName>230421</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODE" id="FB2839BE-AC96-36A7-6B39-A78879AEAA9D">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>CAMPINFO</sourceObjSchema>
+<sourceObjName>CODE</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-21 06:17:19 UTC</createdTime>
+<ownerDesignName>230421</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAMPNAME" id="E76358F6-8430-76BC-6717-0D09AEE44C2F">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>CAMPINFO</sourceObjSchema>
+<sourceObjName>CAMPNAME</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-21 06:17:19 UTC</createdTime>
+<ownerDesignName>230421</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPNO" id="C56CD14E-7EEF-4FE4-66DD-AAEBBE715BBE">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>CAMPINFO</sourceObjSchema>
+<sourceObjName>EMPNO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-21 06:17:19 UTC</createdTime>
+<ownerDesignName>230421</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BUSSINESSNO" id="6BE19160-D3FE-A2DF-F0C0-BE6A892DD24D">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>CAMPINFO</sourceObjSchema>
+<sourceObjName>BUSSINESSNO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-21 06:17:19 UTC</createdTime>
+<ownerDesignName>230421</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 BYTE</dataTypeSize>
+<ownDataTypeParameters>12 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TEL" id="DE86546C-E967-2AD1-1CFC-C35E0C16D852">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>CAMPINFO</sourceObjSchema>
+<sourceObjName>TEL</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-21 06:17:19 UTC</createdTime>
+<ownerDesignName>230421</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FAX" id="109BC3C0-632E-8014-1D77-3D95BD313F97">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>CAMPINFO</sourceObjSchema>
+<sourceObjName>FAX</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-21 06:17:19 UTC</createdTime>
+<ownerDesignName>230421</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5FDF0A20-404B-1492-E5B6-29F0CBAC285C" name="PK_CAMPINFO">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>PK_CAMPINFO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-21 06:17:19 UTC</createdTime>
+<ownerDesignName>230421</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB2839BE-AC96-36A7-6B39-A78879AEAA9D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2C517559-D5B6-AF7B-B44A-658B4B50D4E0" schemaObject="443E67C4-A997-5989-E3E9-9A278A090ED6" name="PK_CAMPINFO">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>PK_CAMPINFO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-21 06:17:19 UTC</createdTime>
+<ownerDesignName>230421</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB2839BE-AC96-36A7-6B39-A78879AEAA9D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

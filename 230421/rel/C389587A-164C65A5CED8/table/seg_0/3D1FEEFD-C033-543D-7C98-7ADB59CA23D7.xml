@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3D1FEEFD-C033-543D-7C98-7ADB59CA23D7" schemaObject="443E67C4-A997-5989-E3E9-9A278A090ED6" name="EMPINFO">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>EMPINFO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-21 06:17:19 UTC</createdTime>
+<ownerDesignName>230421</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EMPNO" id="7B5BF28D-031A-CD95-AA79-4369ABA2A6BD">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>EMPINFO</sourceObjSchema>
+<sourceObjName>EMPNO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-21 06:17:19 UTC</createdTime>
+<ownerDesignName>230421</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODE" id="FF26F45E-F3DB-5B9A-B068-BA084A212369">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>EMPINFO</sourceObjSchema>
+<sourceObjName>CODE</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-21 06:17:19 UTC</createdTime>
+<ownerDesignName>230421</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6268C4CA-B65D-BD5E-3AB5-3338C9F9296F" referredColumn="FB2839BE-AC96-36A7-6B39-A78879AEAA9D"/>
+</associations>
+</Column>
+<Column name="ENAME" id="E471435C-292B-74C0-599F-641A4C4CDD33">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>EMPINFO</sourceObjSchema>
+<sourceObjName>ENAME</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-21 06:17:19 UTC</createdTime>
+<ownerDesignName>230421</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 BYTE</dataTypeSize>
+<ownDataTypeParameters>300 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AUTH" id="90EAA017-47CA-D1D6-6378-FD2CEC83025A">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>EMPINFO</sourceObjSchema>
+<sourceObjName>AUTH</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-21 06:17:19 UTC</createdTime>
+<ownerDesignName>230421</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPDATE" id="E2A64FF4-453F-554E-B72D-90D0827D11F7">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>EMPINFO</sourceObjSchema>
+<sourceObjName>EMPDATE</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-21 06:17:19 UTC</createdTime>
+<ownerDesignName>230421</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>Sysdate</defaultValue>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PWD" id="DBE46857-2E53-92D3-3DBC-27327F0E009A">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>EMPINFO</sourceObjSchema>
+<sourceObjName>PWD</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-21 06:17:19 UTC</createdTime>
+<ownerDesignName>230421</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="05639777-F127-3961-DA6E-EC6E6A3897DF" name="PK_EMPINFO">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>PK_EMPINFO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-21 06:17:19 UTC</createdTime>
+<ownerDesignName>230421</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B5BF28D-031A-CD95-AA79-4369ABA2A6BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="04A6E529-0617-1BF4-CA4B-1D5D29D2FC25" schemaObject="443E67C4-A997-5989-E3E9-9A278A090ED6" name="PK_EMPINFO">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>PK_EMPINFO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-21 06:17:19 UTC</createdTime>
+<ownerDesignName>230421</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B5BF28D-031A-CD95-AA79-4369ABA2A6BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CBAA8C0D-2F51-3D34-B0DA-93A634753C53" name="FK_CAMPINFO_TO_EMPINFO">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-21 06:17:20 UTC</createdTime>
+<ownerDesignName>230421</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF26F45E-F3DB-5B9A-B068-BA084A212369"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

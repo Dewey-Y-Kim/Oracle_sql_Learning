@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FBA19C58-C677-20F9-5686-8B9786B14610" containerWithKeyObject="BC2422D6-6D12-C056-0ACB-6E1183CE4D2F" localFKIndex="827356B8-2302-7562-A76F-F94A715E8A0A" name="FK_CAMPINFO_TO_CAMPINVEN">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>FK_CAMPINFO_TO_CAMPINVEN</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-21 06:17:20 UTC</createdTime>
+<ownerDesignName>230421</ownerDesignName>
+<referredTableLongName>SCOTT.CAMPINFO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B5757024-2131-B2CB-7F60-AC2E60841497</referredTableID>
+<keyObject>5FDF0A20-404B-1492-E5B6-29F0CBAC285C</keyObject>
+<referredKeyID>5FDF0A20-404B-1492-E5B6-29F0CBAC285C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

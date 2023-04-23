@@ -1,0 +1,225 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="552EC93A-3E28-FE88-3F62-D1B9E77767BD" schemaObject="443E67C4-A997-5989-E3E9-9A278A090ED6" name="SELLINFO">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>SELLINFO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-21 06:17:19 UTC</createdTime>
+<ownerDesignName>230421</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CUSTOMNO" id="969B0AF0-2D95-8810-579D-1AA3299D8EBC">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SELLINFO</sourceObjSchema>
+<sourceObjName>CUSTOMNO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-21 06:17:19 UTC</createdTime>
+<ownerDesignName>230421</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SELLNO" id="3D30471D-171B-4463-8E35-0C986F7C52E4">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SELLINFO</sourceObjSchema>
+<sourceObjName>SELLNO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-21 06:17:19 UTC</createdTime>
+<ownerDesignName>230421</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SELLDATE" id="E8F6C38A-D7CD-BBB4-E8D2-C7289C522295">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SELLINFO</sourceObjSchema>
+<sourceObjName>SELLDATE</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-21 06:17:19 UTC</createdTime>
+<ownerDesignName>230421</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>Sysdate</defaultValue>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROMICEDATE" id="7939C394-5BBF-3A44-81CB-DA2D1C706603">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SELLINFO</sourceObjSchema>
+<sourceObjName>PROMICEDATE</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-21 06:17:19 UTC</createdTime>
+<ownerDesignName>230421</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QTT" id="F1EFD9BA-6790-98F4-6E3D-41B05CFA89C4">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SELLINFO</sourceObjSchema>
+<sourceObjName>QTT</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-21 06:17:19 UTC</createdTime>
+<ownerDesignName>230421</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPNO" id="4C4DC6F1-EB7E-E40F-1B06-5D32C580CE2E">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SELLINFO</sourceObjSchema>
+<sourceObjName>EMPNO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-21 06:17:19 UTC</createdTime>
+<ownerDesignName>230421</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A49E0C4B-5E33-6CC0-59DA-B930F8F6ADEC" referredColumn="40CEC5FC-4593-23F5-AA3B-E7A241361E99"/>
+</associations>
+</Column>
+<Column name="SELLSTATUS" id="3E4B3DB9-959C-4CA6-8472-BDFD2A1750F9">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SELLINFO</sourceObjSchema>
+<sourceObjName>SELLSTATUS</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-21 06:17:19 UTC</createdTime>
+<ownerDesignName>230421</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GOODNO" id="B1E1436F-4470-2AB9-E406-162A16C619A6">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SELLINFO</sourceObjSchema>
+<sourceObjName>GOODNO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-21 06:17:19 UTC</createdTime>
+<ownerDesignName>230421</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,7,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="846AC12A-C7DB-C1AD-DB28-68CC52E0BCDE" referredColumn="6BBBACE1-6152-0DB4-D2DE-47EC8A23767B"/>
+</associations>
+</Column>
+<Column name="CODE" id="1AE893CC-A092-60C7-98E7-D7EB21F648BA">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SELLINFO</sourceObjSchema>
+<sourceObjName>CODE</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-21 06:17:19 UTC</createdTime>
+<ownerDesignName>230421</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D72E1F81-7D0C-68DD-5022-A1D822BBAA35" referredColumn="FB2839BE-AC96-36A7-6B39-A78879AEAA9D"/>
+</associations>
+</Column>
+<Column name="REALPRICE" id="9FD8D341-D6BC-CA2F-6AD2-5A5E07BCF82E">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SELLINFO</sourceObjSchema>
+<sourceObjName>REALPRICE</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-21 06:17:19 UTC</createdTime>
+<ownerDesignName>230421</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,7,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COUPONCODE" id="E4AC2A0F-5DF1-E23C-9140-70009F89DCF0">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SELLINFO</sourceObjSchema>
+<sourceObjName>COUPONCODE</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-21 06:17:19 UTC</createdTime>
+<ownerDesignName>230421</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A49E0C4B-5E33-6CC0-59DA-B930F8F6ADEC" referredColumn="E55C52B4-50FB-4C8B-C06B-557C13673965"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F02AAA51-11A6-02B9-D4F2-D83E5F9A106D" name="FK_CAMPINFO_TO_SELLINFO">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-21 06:17:20 UTC</createdTime>
+<ownerDesignName>230421</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AE893CC-A092-60C7-98E7-D7EB21F648BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A58FDA65-EF25-61AD-CDD3-2D7C0240A41D" name="FK_GOODINFO_TO_SELLINFO">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-21 06:17:20 UTC</createdTime>
+<ownerDesignName>230421</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1E1436F-4470-2AB9-E406-162A16C619A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="67808506-5379-AB11-9A8E-F76369351928" name="FK_USECOUPON_TO_SELLINFO">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-21 06:17:20 UTC</createdTime>
+<ownerDesignName>230421</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4AC2A0F-5DF1-E23C-9140-70009F89DCF0"/>
+<colUsage columnID="4C4DC6F1-EB7E-E40F-1B06-5D32C580CE2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

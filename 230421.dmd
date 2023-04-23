@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="230421" id="7571D923-29DE-C2D3-E59F-B71F25632212" version="3.5">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-21 03:49:35 UTC</createdTime>
+<ownerDesignName>230421</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>7571D923-29DE-C2D3-E59F-B71F25632212</designId>
+</OSDM_Design>

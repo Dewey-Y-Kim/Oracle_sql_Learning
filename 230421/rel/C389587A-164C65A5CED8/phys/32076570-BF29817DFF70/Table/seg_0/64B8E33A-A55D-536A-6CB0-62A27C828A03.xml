@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="CUSTOMINFO" directorySegmentName="seg_0" id="64B8E33A-A55D-536A-6CB0-62A27C828A03">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-21 06:17:19 UTC</createdTime>
+<ownerDesignName>230421</ownerDesignName>
+<schemaObject>443E67C4-A997-5989-E3E9-9A278A090ED6</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>BCB21D44-88B3-7801-20EB-7AB43011F5DC</segment>
+<tableSpace>AC5E02AF-C644-68A6-60A5-B10D1B49C877</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NAME" id="077DF35E-47BB-49D3-360D-DC38F2121107">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-21 06:17:19 UTC</createdTime>
+<ownerDesignName>230421</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GENDER" id="0867D300-8768-39C7-53E1-7EA11B2F6E18">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-21 06:17:19 UTC</createdTime>
+<ownerDesignName>230421</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REGISTDATE" id="1D16028E-18A8-A7FD-AB4F-2E593BA1443E">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-21 06:17:19 UTC</createdTime>
+<ownerDesignName>230421</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MEMO" id="2F29F68B-043E-F4F8-9A89-EFFA278B44C5">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-21 06:17:19 UTC</createdTime>
+<ownerDesignName>230421</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUSTOMNO" id="62A11966-1BFC-BA54-2212-74BF09EB29D4">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-21 06:17:19 UTC</createdTime>
+<ownerDesignName>230421</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TEL" id="A3DA8088-1913-63D5-C3AC-0B1551C459C1">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-21 06:17:19 UTC</createdTime>
+<ownerDesignName>230421</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODE" id="AA473E18-D42E-8325-4B9A-C19F786683A6">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-21 06:17:19 UTC</createdTime>
+<ownerDesignName>230421</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BIRTH" id="B3F60102-A2E3-6E27-46E1-DB90BF70074B">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-21 06:17:19 UTC</createdTime>
+<ownerDesignName>230421</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMAIL" id="D5E07CE2-015C-19CC-D9AE-094C1DE99426">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-21 06:17:19 UTC</createdTime>
+<ownerDesignName>230421</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ADDR" id="DC879D7B-4F69-8780-A3A9-50C5E7580275">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-21 06:17:19 UTC</createdTime>
+<ownerDesignName>230421</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_CUSTOMINFO" id="513B6CFC-269D-E3A5-6109-72430D637FFF">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-21 06:17:19 UTC</createdTime>
+<ownerDesignName>230421</ownerDesignName>
+<schemaObject>443E67C4-A997-5989-E3E9-9A278A090ED6</schemaObject>
+<segment>E2D98B85-5F29-4A24-6411-41FEE8B4F475</segment>
+<tableSpace>AC5E02AF-C644-68A6-60A5-B10D1B49C877</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_CAMPINFO_TO_CUSTOMINFO" id="76ACB639-72BE-68D0-75F6-0EA718DBE501">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-21 06:17:20 UTC</createdTime>
+<ownerDesignName>230421</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_CUSTOMINFO" id="9B79AD94-4CAC-781C-61B8-EE77AA76872B">
+<createdBy>dewey</createdBy>
+<createdTime>2023-04-21 06:17:19 UTC</createdTime>
+<ownerDesignName>230421</ownerDesignName>
+<segment>E2D98B85-5F29-4A24-6411-41FEE8B4F475</segment>
+<tableSpace>AC5E02AF-C644-68A6-60A5-B10D1B49C877</tableSpace>
+<existingIndex>513B6CFC-269D-E3A5-6109-72430D637FFF</existingIndex>
+<indexSegment>E2D98B85-5F29-4A24-6411-41FEE8B4F475</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

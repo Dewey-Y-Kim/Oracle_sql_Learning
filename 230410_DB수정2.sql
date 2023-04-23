@@ -2,27 +2,24 @@ ALTER TABLE customInfo
 	DROP
 		CONSTRAINT FK_CampInfo_TO_customInfo
 		CASCADE
-
-
-DDL 구문이 수행되었습니다.
-
+;
 
 ALTER TABLE GoodInfo
 	DROP
 		CONSTRAINT FK_SellerInfo_TO_GoodInfo
 		CASCADE
+;
 
 
-DDL 구문이 수행되었습니다.
 
 
 ALTER TABLE campInven
 	DROP
 		CONSTRAINT FK_CampInfo_TO_campInven
 		CASCADE
+;
 
 
-DDL 구문이 수행되었습니다.
 
 
 ALTER TABLE sellInfo
@@ -30,8 +27,8 @@ ALTER TABLE sellInfo
 		CONSTRAINT FK_GoodInfo_TO_sellInfo
 		CASCADE
 
+;
 
-DDL 구문이 수행되었습니다.
 
 
 ALTER TABLE sellInfo
@@ -39,17 +36,17 @@ ALTER TABLE sellInfo
 		CONSTRAINT FK_CampInfo_TO_sellInfo
 		CASCADE
 
+;
 
-DDL 구문이 수행되었습니다.
 
 
 ALTER TABLE sellInfo
 	DROP
 		CONSTRAINT FK_customInfo_TO_sellInfo
 		CASCADE
+;
 
 
-DDL 구문이 수행되었습니다.
 
 
 ALTER TABLE empInfo
@@ -57,8 +54,8 @@ ALTER TABLE empInfo
 		CONSTRAINT FK_CampInfo_TO_empInfo
 		CASCADE
 
+;
 
-DDL 구문이 수행되었습니다.
 
 
 ALTER TABLE customInfo
@@ -67,18 +64,18 @@ ALTER TABLE customInfo
 		CASCADE
 		KEEP INDEX
 
+;
 
-DDL 구문이 수행되었습니다.
 
 
 ALTER TABLE GoodInfo
 	DROP
 		PRIMARY KEY
 		CASCADE
-		KEEP INDEX
 
 
-DDL 구문이 수행되었습니다.
+;
+
 
 
 ALTER TABLE campInven
@@ -97,7 +94,7 @@ ALTER TABLE CampInfo
 		KEEP INDEX
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 ALTER TABLE sellInfo
@@ -116,7 +113,7 @@ ALTER TABLE empInfo
 		KEEP INDEX
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 ALTER TABLE SellerInfo
@@ -126,56 +123,56 @@ ALTER TABLE SellerInfo
 		KEEP INDEX
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 DROP TABLE customInfo 
 	CASCADE CONSTRAINTS
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 DROP TABLE GoodInfo 
 	CASCADE CONSTRAINTS
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 DROP TABLE campInven 
 	CASCADE CONSTRAINTS
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 DROP TABLE CampInfo 
 	CASCADE CONSTRAINTS
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 DROP TABLE sellInfo 
 	CASCADE CONSTRAINTS
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 DROP TABLE empInfo 
 	CASCADE CONSTRAINTS
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 DROP TABLE SellerInfo 
 	CASCADE CONSTRAINTS
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 CREATE TABLE customInfo (
@@ -192,7 +189,7 @@ CREATE TABLE customInfo (
 )
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 ALTER TABLE customInfo
@@ -203,7 +200,7 @@ ALTER TABLE customInfo
 		)
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 CREATE TABLE GoodInfo (
@@ -214,7 +211,7 @@ CREATE TABLE GoodInfo (
 )
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 ALTER TABLE GoodInfo
@@ -225,7 +222,7 @@ ALTER TABLE GoodInfo
 		)
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 CREATE TABLE campInven (
@@ -236,7 +233,7 @@ CREATE TABLE campInven (
 )
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 CREATE TABLE CampInfo (
@@ -249,7 +246,7 @@ CREATE TABLE CampInfo (
 )
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 ALTER TABLE CampInfo
@@ -260,7 +257,7 @@ ALTER TABLE CampInfo
 		)
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 CREATE TABLE sellInfo (
@@ -275,7 +272,7 @@ CREATE TABLE sellInfo (
 )
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 CREATE TABLE empInfo (
@@ -288,7 +285,7 @@ CREATE TABLE empInfo (
 )
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 ALTER TABLE empInfo
@@ -299,7 +296,7 @@ ALTER TABLE empInfo
 		)
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 CREATE TABLE SellerInfo (
@@ -312,7 +309,7 @@ CREATE TABLE SellerInfo (
 )
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 ALTER TABLE SellerInfo
@@ -323,7 +320,7 @@ ALTER TABLE SellerInfo
 		)
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 ALTER TABLE customInfo
@@ -337,7 +334,7 @@ ALTER TABLE customInfo
 		)
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 ALTER TABLE GoodInfo
@@ -351,7 +348,7 @@ ALTER TABLE GoodInfo
 		)
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 ALTER TABLE campInven
@@ -365,7 +362,7 @@ ALTER TABLE campInven
 		)
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 ALTER TABLE sellInfo
@@ -379,7 +376,7 @@ ALTER TABLE sellInfo
 		)
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 ALTER TABLE sellInfo
@@ -393,7 +390,7 @@ ALTER TABLE sellInfo
 		)
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 ALTER TABLE sellInfo
@@ -407,7 +404,7 @@ ALTER TABLE sellInfo
 		)
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 ALTER TABLE empInfo
@@ -421,7 +418,7 @@ ALTER TABLE empInfo
 		)
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 ALTER TABLE customInfo
@@ -430,7 +427,7 @@ ALTER TABLE customInfo
 		CASCADE
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 ALTER TABLE GoodInfo
@@ -439,7 +436,7 @@ ALTER TABLE GoodInfo
 		CASCADE
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 ALTER TABLE campInven
@@ -448,7 +445,7 @@ ALTER TABLE campInven
 		CASCADE
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 ALTER TABLE sellInfo
@@ -457,7 +454,7 @@ ALTER TABLE sellInfo
 		CASCADE
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 ALTER TABLE sellInfo
@@ -466,7 +463,7 @@ ALTER TABLE sellInfo
 		CASCADE
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 ALTER TABLE sellInfo
@@ -475,7 +472,7 @@ ALTER TABLE sellInfo
 		CASCADE
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 ALTER TABLE sellInfo
@@ -492,7 +489,7 @@ ALTER TABLE empInfo
 		CASCADE
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 ALTER TABLE Usecoupon
@@ -518,7 +515,7 @@ ALTER TABLE customInfo
 		KEEP INDEX
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 ALTER TABLE GoodInfo
@@ -528,7 +525,7 @@ ALTER TABLE GoodInfo
 		KEEP INDEX
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 ALTER TABLE campInven
@@ -547,7 +544,7 @@ ALTER TABLE CampInfo
 		KEEP INDEX
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 ALTER TABLE sellInfo
@@ -566,7 +563,7 @@ ALTER TABLE empInfo
 		KEEP INDEX
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 ALTER TABLE SellerInfo
@@ -576,7 +573,7 @@ ALTER TABLE SellerInfo
 		KEEP INDEX
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 ALTER TABLE CouponInfo
@@ -601,49 +598,49 @@ DROP TABLE customInfo
 	CASCADE CONSTRAINTS
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 DROP TABLE GoodInfo 
 	CASCADE CONSTRAINTS
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 DROP TABLE campInven 
 	CASCADE CONSTRAINTS
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 DROP TABLE CampInfo 
 	CASCADE CONSTRAINTS
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 DROP TABLE sellInfo 
 	CASCADE CONSTRAINTS
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 DROP TABLE empInfo 
 	CASCADE CONSTRAINTS
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 DROP TABLE SellerInfo 
 	CASCADE CONSTRAINTS
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 DROP TABLE CouponInfo 
@@ -672,7 +669,7 @@ CREATE TABLE customInfo (
 )
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 ALTER TABLE customInfo
@@ -683,7 +680,7 @@ ALTER TABLE customInfo
 		)
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 CREATE TABLE GoodInfo (
@@ -696,7 +693,7 @@ CREATE TABLE GoodInfo (
 )
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 ALTER TABLE GoodInfo
@@ -707,7 +704,7 @@ ALTER TABLE GoodInfo
 		)
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 CREATE TABLE campInven (
@@ -718,7 +715,7 @@ CREATE TABLE campInven (
 )
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 CREATE TABLE CampInfo (
@@ -731,7 +728,7 @@ CREATE TABLE CampInfo (
 )
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 ALTER TABLE CampInfo
@@ -742,7 +739,7 @@ ALTER TABLE CampInfo
 		)
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 CREATE TABLE sellInfo (
@@ -850,7 +847,7 @@ ALTER TABLE customInfo
 		KEEP INDEX
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 ALTER TABLE GoodInfo
@@ -860,7 +857,7 @@ ALTER TABLE GoodInfo
 		KEEP INDEX
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 ALTER TABLE campInven
@@ -879,7 +876,7 @@ ALTER TABLE CampInfo
 		KEEP INDEX
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 ALTER TABLE sellInfo
@@ -931,28 +928,28 @@ DROP TABLE customInfo
 	CASCADE CONSTRAINTS
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 DROP TABLE GoodInfo 
 	CASCADE CONSTRAINTS
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 DROP TABLE campInven 
 	CASCADE CONSTRAINTS
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 DROP TABLE CampInfo 
 	CASCADE CONSTRAINTS
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 DROP TABLE sellInfo 
@@ -999,7 +996,7 @@ CREATE TABLE customInfo (
 )
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 ALTER TABLE customInfo
@@ -1010,7 +1007,7 @@ ALTER TABLE customInfo
 		)
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 CREATE TABLE GoodInfo (
@@ -1023,7 +1020,7 @@ CREATE TABLE GoodInfo (
 )
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 ALTER TABLE GoodInfo
@@ -1034,7 +1031,7 @@ ALTER TABLE GoodInfo
 		)
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 CREATE TABLE campInven (
@@ -1045,7 +1042,7 @@ CREATE TABLE campInven (
 )
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 CREATE TABLE CampInfo (
@@ -1058,7 +1055,7 @@ CREATE TABLE CampInfo (
 )
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 ALTER TABLE CampInfo
@@ -1069,7 +1066,7 @@ ALTER TABLE CampInfo
 		)
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 CREATE TABLE sellInfo (
@@ -1087,7 +1084,7 @@ CREATE TABLE sellInfo (
 )
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 CREATE TABLE empInfo (
@@ -1100,7 +1097,7 @@ CREATE TABLE empInfo (
 )
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 ALTER TABLE empInfo
@@ -1111,7 +1108,7 @@ ALTER TABLE empInfo
 		)
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 CREATE TABLE SellerInfo (
@@ -1124,7 +1121,7 @@ CREATE TABLE SellerInfo (
 )
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 ALTER TABLE SellerInfo
@@ -1135,7 +1132,7 @@ ALTER TABLE SellerInfo
 		)
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 CREATE TABLE CouponInfo (
@@ -1147,7 +1144,7 @@ CREATE TABLE CouponInfo (
 )
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 ALTER TABLE CouponInfo
@@ -1158,7 +1155,7 @@ ALTER TABLE CouponInfo
 		)
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 CREATE TABLE Usecoupon (
@@ -1168,7 +1165,7 @@ CREATE TABLE Usecoupon (
 )
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 ALTER TABLE Usecoupon
@@ -1180,7 +1177,7 @@ ALTER TABLE Usecoupon
 		)
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 ALTER TABLE customInfo
@@ -1194,7 +1191,7 @@ ALTER TABLE customInfo
 		)
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 ALTER TABLE GoodInfo
@@ -1208,7 +1205,7 @@ ALTER TABLE GoodInfo
 		)
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 ALTER TABLE campInven
@@ -1222,7 +1219,7 @@ ALTER TABLE campInven
 		)
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 ALTER TABLE sellInfo
@@ -1236,7 +1233,7 @@ ALTER TABLE sellInfo
 		)
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 ALTER TABLE sellInfo
@@ -1250,7 +1247,7 @@ ALTER TABLE sellInfo
 		)
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 ALTER TABLE sellInfo
@@ -1264,7 +1261,7 @@ ALTER TABLE sellInfo
 		)
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 ALTER TABLE sellInfo
@@ -1280,7 +1277,7 @@ ALTER TABLE sellInfo
 		)
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 ALTER TABLE empInfo
@@ -1294,7 +1291,7 @@ ALTER TABLE empInfo
 		)
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 ALTER TABLE Usecoupon
@@ -1308,7 +1305,7 @@ ALTER TABLE Usecoupon
 		)
 
 
-DDL 구문이 수행되었습니다.
+
 
 
 ALTER TABLE Usecoupon
@@ -1322,6 +1319,6 @@ ALTER TABLE Usecoupon
 		)
 
 
-DDL 구문이 수행되었습니다.
+
 
 
