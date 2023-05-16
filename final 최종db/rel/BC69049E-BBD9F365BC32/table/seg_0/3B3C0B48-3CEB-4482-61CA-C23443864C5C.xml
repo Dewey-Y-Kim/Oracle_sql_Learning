@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3B3C0B48-3CEB-4482-61CA-C23443864C5C" schemaObject="E1FBF094-9636-BD8C-DC31-79320F7479D7" name="BROKENLIST">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>BROKENLIST</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:36 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BROKENNO" id="640F323B-AAF6-B7FE-F2F6-155F0A03757B">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>BROKENLIST</sourceObjSchema>
+<sourceObjName>BROKENNO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:37 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GOODNO" id="59353A39-5DEE-E655-BDA3-59C5E68580C8">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>BROKENLIST</sourceObjSchema>
+<sourceObjName>GOODNO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:37 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,7,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QTT" id="0EB437EB-29E9-14FE-A5FF-F1D94DE51B03">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>BROKENLIST</sourceObjSchema>
+<sourceObjName>QTT</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:37 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGISTDATE" id="1DC1A5E2-5A49-F5B4-4A4A-49DC8273206B">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>BROKENLIST</sourceObjSchema>
+<sourceObjName>REGISTDATE</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:37 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>Sysdate</defaultValue>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

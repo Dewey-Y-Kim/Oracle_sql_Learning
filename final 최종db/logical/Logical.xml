@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="7417522F-D7AF-1D0B-FC4D-D3648E151D27" mainViewID="6F7AEA34-681E-7D66-0C5A-FC98302A8601">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:48:57 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

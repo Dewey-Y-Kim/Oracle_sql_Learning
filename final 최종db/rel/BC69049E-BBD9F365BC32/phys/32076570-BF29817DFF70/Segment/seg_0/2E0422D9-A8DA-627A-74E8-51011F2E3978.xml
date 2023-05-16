@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SegmentOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SegmentOraclev10g" name="Storage12" directorySegmentName="seg_0" id="2E0422D9-A8DA-627A-74E8-51011F2E3978">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:37 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+<initrans>2</initrans>
+<maxTrans>255</maxTrans>
+<scInitialExtent>65536</scInitialExtent>
+<scMaxExtents>2147483645</scMaxExtents>
+<scNextExtent>1048576</scNextExtent>
+</SegmentOraclev10g>

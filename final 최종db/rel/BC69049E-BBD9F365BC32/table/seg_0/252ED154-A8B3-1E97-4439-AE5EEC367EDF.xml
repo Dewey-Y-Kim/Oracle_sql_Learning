@@ -1,0 +1,251 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="252ED154-A8B3-1E97-4439-AE5EEC367EDF" schemaObject="E1FBF094-9636-BD8C-DC31-79320F7479D7" name="OPTOMETRYREGISTRY">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>OPTOMETRYREGISTRY</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:36 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CUSTOMNO" id="F5CC26F1-6E4C-32B0-5531-7AF2A0613571">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>OPTOMETRYREGISTRY</sourceObjSchema>
+<sourceObjName>CUSTOMNO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:37 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D43B24F9-3995-DA92-5D4B-47A426456D2D" referredColumn="82DDB19C-28BB-F17F-824B-A8A9D5237B1C"/>
+</associations>
+</Column>
+<Column name="RSPH" id="C61581FF-C8CB-EDC5-9E6A-0B18AF2971DA">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>OPTOMETRYREGISTRY</sourceObjSchema>
+<sourceObjName>RSPH</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:37 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RCYL" id="2E1BD1C6-CF54-4913-43C4-C28938458086">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>OPTOMETRYREGISTRY</sourceObjSchema>
+<sourceObjName>RCYL</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:37 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RAXIS" id="860D8051-30B6-D6D1-3E4E-D3BFB6CEF037">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>OPTOMETRYREGISTRY</sourceObjSchema>
+<sourceObjName>RAXIS</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:37 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RADD" id="AF2FB57E-EB99-5C49-3C2B-370D4A519277">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>OPTOMETRYREGISTRY</sourceObjSchema>
+<sourceObjName>RADD</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:37 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LSPH" id="ED490C54-9EF9-B5AD-748C-7B7B0639146F">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>OPTOMETRYREGISTRY</sourceObjSchema>
+<sourceObjName>LSPH</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:37 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LCYL" id="D4AE6743-505C-9D73-1D3D-65A00C8C13C1">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>OPTOMETRYREGISTRY</sourceObjSchema>
+<sourceObjName>LCYL</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:37 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAXIS" id="A247EA60-F4C0-94DA-E770-EA7DD4E4F0D7">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>OPTOMETRYREGISTRY</sourceObjSchema>
+<sourceObjName>LAXIS</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:37 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LADD" id="7FC0ED9F-8C0A-1964-F10E-4BF0A730E6EE">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>OPTOMETRYREGISTRY</sourceObjSchema>
+<sourceObjName>LADD</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:37 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PD" id="4D64B3DA-BF17-4BDC-DC98-18D87F4C83A6">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>OPTOMETRYREGISTRY</sourceObjSchema>
+<sourceObjName>PD</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:37 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGISTDATE" id="E5646220-A250-70F9-B48F-3AD3FEA48E19">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>OPTOMETRYREGISTRY</sourceObjSchema>
+<sourceObjName>REGISTDATE</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:37 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>(sysdate)</defaultValue>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEMO" id="1594787A-C66A-2F57-66DD-D57B307BA1C6">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>OPTOMETRYREGISTRY</sourceObjSchema>
+<sourceObjName>MEMO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:37 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2000 BYTE</dataTypeSize>
+<ownDataTypeParameters>2000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OPTOMETRYNO" id="F8DC5E88-B71C-7075-A8A9-15C9DC37BA43">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>OPTOMETRYREGISTRY</sourceObjSchema>
+<sourceObjName>OPTOMETRYNO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:37 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SELLNO" id="4FE8B116-35BF-149F-3BEF-4847720CE255">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>OPTOMETRYREGISTRY</sourceObjSchema>
+<sourceObjName>SELLNO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:37 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C00F6C44-5E41-DB48-8283-B893020DEA31" name="FK_OPTOMETRY_TO_CUSTOMINFO">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:56:31 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5CC26F1-6E4C-32B0-5531-7AF2A0613571"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

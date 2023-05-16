@@ -1,0 +1,157 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9EC1EB1B-0F0E-0C67-3A3D-D41386E85529" schemaObject="AD3A6A3A-6F7F-1DA7-3911-6D994BC185C8" name="NOTICEBBS">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>NOTICEBBS</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>5ACE5840-4450-76FC-CBEB-FCE660DDF9A1</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NO" id="0705EC90-1A46-0C24-8ADA-A78DD6430D5C">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>NOTICEBBS</sourceObjSchema>
+<sourceObjName>NO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>3BDBDD46-3702-AC34-1ECA-9A833F1252A0</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,7,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPNO" id="EAF8D550-F65D-8084-CAF3-84B96C1EE7B5">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>NOTICEBBS</sourceObjSchema>
+<sourceObjName>EMPNO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>B6EC5EA8-24CC-5AC6-6B0D-CBA0CFD4B078</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3614DC44-F25A-5DE5-6D0F-DA9057F8F0A1" referredColumn="45371CC2-7720-9042-29C5-1D9E0E14D57A"/>
+</associations>
+</Column>
+<Column name="TITLE" id="2B030D12-F0D4-3FD8-659F-10708604FCA7">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>NOTICEBBS</sourceObjSchema>
+<sourceObjName>TITLE</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>554A698F-E279-4DA0-3CFD-0FBEC87A8E96</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 BYTE</dataTypeSize>
+<ownDataTypeParameters>300 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WRITEDATE" id="76D0EC29-B816-750F-C614-EBA845427D99">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>NOTICEBBS</sourceObjSchema>
+<sourceObjName>WRITEDATE</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>EBEE68C7-E472-E95B-941F-C1AAE5F913FE</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>Sysdate</defaultValue>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HIT" id="379FE3C0-2AAC-6797-AF0E-FB810D2E8E04">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>NOTICEBBS</sourceObjSchema>
+<sourceObjName>HIT</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>F5A217AE-BB6D-848C-5C08-881A4B32ECB2</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTENT" id="942063AF-F5C0-56A9-A589-62ED021C78DC">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>NOTICEBBS</sourceObjSchema>
+<sourceObjName>CONTENT</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>EC1DF0F3-B3A6-61E8-A480-4D747FCDA266</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F389B7CC-A588-6B84-11C5-D1B0E5AF23F8" name="PK_NOTICEBBS">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>PK_NOTICEBBS</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>161C38D2-DFFA-041D-14E8-A06D9847E11A</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0705EC90-1A46-0C24-8ADA-A78DD6430D5C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7FE1D24C-F15D-2B15-F0F0-581F50F3A8BF" schemaObject="AD3A6A3A-6F7F-1DA7-3911-6D994BC185C8" name="PK_NOTICEBBS">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>PK_NOTICEBBS</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>33A64E67-3FF9-965F-EC1E-F8756BEA3832</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0705EC90-1A46-0C24-8ADA-A78DD6430D5C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CFBB5B87-529A-3C71-DEA8-32DE22B96E6D" name="FK_EMPINFO_TO_NOTICEBBS">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EAF8D550-F65D-8084-CAF3-84B96C1EE7B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

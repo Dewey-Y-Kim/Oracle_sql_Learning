@@ -1,0 +1,218 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="156CE3CD-4B7A-F2F6-A755-78B87AB3B8F1" schemaObject="AD3A6A3A-6F7F-1DA7-3911-6D994BC185C8" name="CUSTOMINFO">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>CUSTOMINFO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>C7F7E01F-3CBB-F121-EC2B-1598621F3ACA</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CUSTOMNO" id="520D90F4-3E5E-155B-CE58-A0514204DDD5">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>CUSTOMINFO</sourceObjSchema>
+<sourceObjName>CUSTOMNO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>5CE59AE6-6D9A-EF7C-7484-30BBE6B1C5E6</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="53415F66-B458-F85D-BFD8-4F620B6D79A5">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>CUSTOMINFO</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>23322B67-524C-D838-00D8-A4BF9CDCD641</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 BYTE</dataTypeSize>
+<ownDataTypeParameters>300 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BIRTH" id="2915FF90-68EA-DED8-8B21-D198DCF596DD">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>CUSTOMINFO</sourceObjSchema>
+<sourceObjName>BIRTH</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>87832AA3-D5C7-3A41-0C25-E22C94FE3ABE</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="4FA251AD-CA99-1896-5EF0-E4DAE3860749">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>CUSTOMINFO</sourceObjSchema>
+<sourceObjName>EMAIL</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>D5A7F6A2-E7C3-3BE8-B1F4-353A4B96E46A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 BYTE</dataTypeSize>
+<ownDataTypeParameters>300 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDR1" id="93FA2DA2-8E35-9DED-8051-21F16FCEDFCA">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>CUSTOMINFO</sourceObjSchema>
+<sourceObjName>ADDR1</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>E1B98362-EDEB-C1BA-70E0-9089DFF5ED89</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TEL" id="C30EAB8B-76FD-6E17-A661-309AA6F9B561">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>CUSTOMINFO</sourceObjSchema>
+<sourceObjName>TEL</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>7093A6C9-05D9-27EB-836A-C845598C7EF5</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GENDER" id="92CF25D6-CB1A-1BDA-B60C-6D09ECE3A655">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>CUSTOMINFO</sourceObjSchema>
+<sourceObjName>GENDER</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>D14F66DA-6C7E-51E0-B689-834331071A92</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGISTDATE" id="A0EB70FC-4BEA-0355-073F-3207F0006B63">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>CUSTOMINFO</sourceObjSchema>
+<sourceObjName>REGISTDATE</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>35DCD094-039F-ACBC-49EF-23071FD272D8</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>sysdate</defaultValue>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODE" id="7E8E7FB4-12DF-9ABB-879D-7BD3B6767AFC">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>CUSTOMINFO</sourceObjSchema>
+<sourceObjName>CODE</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>0A7E0E7F-9D31-5DF0-F892-6E53978E47D9</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1FF5F537-B330-EA83-E4D9-97AC68891BC8" referredColumn="9B561FB6-30D3-1C90-A63C-ECF5DED4BDF2"/>
+</associations>
+</Column>
+<Column name="ADDR2" id="BDB1324F-7EC8-78CB-3CD5-D3E478D0F6AD">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>CUSTOMINFO</sourceObjSchema>
+<sourceObjName>ADDR2</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>03718E33-868E-1CB8-10E9-41210337D41C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7118D91D-52C3-2A26-3E00-582B654ADCF1" name="PK_CUSTOMINFO">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>PK_CUSTOMINFO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>68A54944-78B9-D01C-C16F-75DDCFB11E4D</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="520D90F4-3E5E-155B-CE58-A0514204DDD5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2005A03E-8F74-AEA2-0FA3-877BFF32EE88" schemaObject="AD3A6A3A-6F7F-1DA7-3911-6D994BC185C8" name="PK_CUSTOMINFO">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>PK_CUSTOMINFO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>6B274F8F-0B46-3110-8B2D-DB2374B71548</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="520D90F4-3E5E-155B-CE58-A0514204DDD5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DA6EA343-574F-05D3-2F56-FB2690F3ECE0" name="FK_CAMPINFO_TO_CUSTOMINFO">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E8E7FB4-12DF-9ABB-879D-7BD3B6767AFC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

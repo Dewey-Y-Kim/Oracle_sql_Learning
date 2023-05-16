@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1FF5F537-B330-EA83-E4D9-97AC68891BC8" containerWithKeyObject="156CE3CD-4B7A-F2F6-A755-78B87AB3B8F1" localFKIndex="DA6EA343-574F-05D3-2F56-FB2690F3ECE0" name="FK_CAMPINFO_TO_CUSTOMINFO">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>FK_CAMPINFO_TO_CUSTOMINFO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>81717038-DAC5-8FDE-9E76-4195B3085906</importedID>
+<referredTableLongName>SCOTT.CAMPINFO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3AE2C0C0-42A0-08E1-4ECB-FF9707253147</referredTableID>
+<keyObject>51FE957D-918A-46DE-A6FA-589FC5F54165</keyObject>
+<referredKeyID>51FE957D-918A-46DE-A6FA-589FC5F54165</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>CODE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

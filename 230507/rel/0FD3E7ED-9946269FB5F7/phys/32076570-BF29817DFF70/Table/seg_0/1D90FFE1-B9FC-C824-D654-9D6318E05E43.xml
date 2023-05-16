@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="OPTOMETRYREGISTRY" directorySegmentName="seg_0" id="1D90FFE1-B9FC-C824-D654-9D6318E05E43">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<schemaObject>AD3A6A3A-6F7F-1DA7-3911-6D994BC185C8</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>FC0BAD9C-9C01-AB29-2F0D-4A8734273891</segment>
+<tableSpace>C594EA60-91C8-EB59-86DD-CE6A2A413E15</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="RAXIS" id="4DFD8900-482B-EAAD-F641-BCF70DBB6745">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PD" id="50D660B4-331A-1232-A2A5-F11AA954FC87">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RSPH" id="672834E4-3069-B02B-16B7-8767F0D171B8">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUSTOMNO" id="7922C83E-EFBF-606B-ECF6-2000C4B551A8">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LAXIS" id="7C289947-B766-F12C-94EA-76290EDC2DD6">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OPTOMETRYNO" id="95F7D00B-EF83-D9DF-E73A-75017061ACCF">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LADD" id="9A6776B7-133B-ADA2-9AEB-DF67B9E81059">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SELLNO" id="C0774DBC-A733-03EB-AC33-EBF22C553FC9">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RCYL" id="CD081080-D5C8-E184-5981-8A0F8C36C6DB">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REGISTDATE" id="D113919C-AC7E-7913-C189-A11B55921D33">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<defaultValue>(sysdate)</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="MEMO" id="D57FA755-BF59-9D03-D4A6-6A47F46619A3">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LCYL" id="D8B41B5E-6C91-4945-1E50-5036CFF9BFEB">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LSPH" id="E155C225-CCAE-7BB1-9830-12B1FD3DF7A5">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RADD" id="FDC24BB9-5C21-A7B1-8EBB-9E4D3C5B4053">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_OPTOMETRY_TO_CUSTOMINFO" id="45459568-F317-CA7D-DD8E-FB3BC8C1E9D3">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+</TableProxyOraclev11g>

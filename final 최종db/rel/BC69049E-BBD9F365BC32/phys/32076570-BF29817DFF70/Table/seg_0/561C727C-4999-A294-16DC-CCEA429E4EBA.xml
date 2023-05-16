@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="SELLINFO" directorySegmentName="seg_0" id="561C727C-4999-A294-16DC-CCEA429E4EBA">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:36 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+<schemaObject>E1FBF094-9636-BD8C-DC31-79320F7479D7</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>76C09260-6A33-F4B7-B203-2F94B15C14D2</segment>
+<tableSpace>165E0A24-D4BD-440D-1684-DA7D3DBE7712</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="SELLNO" id="00537241-7825-63ED-C0F5-4B0C3912C35B">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:37 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="QTT" id="03BFD38D-7E36-40CC-C788-86CB0B9C6FB2">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:37 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+<defaultValue>1</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="CODE" id="1D803305-FCCD-C46E-0168-1AA5A690C512">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:37 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GOODNO" id="2363C5C8-1646-6AC1-3B72-92A218A56DA0">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:37 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OPTRESULT" id="4245DFC3-B546-A4B4-D406-A46C623C90B1">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:37 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SELLDATE" id="5D3CB154-623D-8ECA-0F49-FC54FD4AC2DF">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:37 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+<defaultValue>sysdate</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="EMPNO" id="72967CFF-90D4-D570-BFB2-D568D3C25484">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:37 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SELLSTATUS" id="75F9EB04-90E5-7180-E662-227EE0BFDAE8">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:37 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="REALPRICE" id="956DC860-D66A-9BED-9DA5-05220C48F8AE">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:37 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROMISEDATE" id="A445E92D-302D-4A86-A78E-11B32CE2DF89">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:37 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUSTOMNO" id="C5D52EFD-AA1F-A0A6-B3F4-84F870467870">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:37 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COUPONCODE" id="FF6897FD-6BF0-E6B9-BB9A-8BF03B0189F7">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:37 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_SELLINFO_TO_GOODINFO" id="531B28FB-D0AF-8B77-694F-EAB8CB18FEFD">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 02:04:52 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_SELLINFO_TO_CUSTOMINFO" id="5E45C017-0593-CE7E-9B4D-36C283EF03A0">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:56:31 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+</TableProxyOraclev11g>

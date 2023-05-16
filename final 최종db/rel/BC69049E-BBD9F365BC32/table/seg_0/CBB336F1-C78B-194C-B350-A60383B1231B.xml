@@ -1,0 +1,177 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CBB336F1-C78B-194C-B350-A60383B1231B" schemaObject="E1FBF094-9636-BD8C-DC31-79320F7479D7" name="GOODINFO">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>GOODINFO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:36 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="GOODNO" id="4E4E3F0D-3454-06A2-FD1E-EC57C5F822D9">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>GOODINFO</sourceObjSchema>
+<sourceObjName>GOODNO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:37 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,7,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SELLERCODE" id="52283D44-D322-099F-AFAD-CB7B0F2916CC">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>GOODINFO</sourceObjSchema>
+<sourceObjName>SELLERCODE</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:37 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AB2F732B-6983-45CC-9C14-25691B38E52B" referredColumn="4974A0C5-84D1-99C2-4B54-AAA0AFE35461"/>
+</associations>
+</Column>
+<Column name="CLASSIFYNO" id="DB87BC46-A3C1-F66D-0EAE-7B0EEC27D6C9">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>GOODINFO</sourceObjSchema>
+<sourceObjName>CLASSIFYNO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:37 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MODEL" id="0D8B9909-A6D5-5F5B-72AD-1D110AC63EE2">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>GOODINFO</sourceObjSchema>
+<sourceObjName>MODEL</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:37 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 BYTE</dataTypeSize>
+<ownDataTypeParameters>500 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BUYPRICE" id="CC033E28-ED68-2EE9-171F-3B1C33E8D698">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>GOODINFO</sourceObjSchema>
+<sourceObjName>BUYPRICE</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:37 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,7,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SELLPRICE" id="32AC51B4-BF32-0DCA-AC44-565384B0253E">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>GOODINFO</sourceObjSchema>
+<sourceObjName>SELLPRICE</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:37 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,7,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="105CE12B-5205-F934-335F-D49B11E9F1C9">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>GOODINFO</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:37 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BRANDCODE" id="E3F97D48-1F43-BF01-0CAF-5D4F8CDDFDF9">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>GOODINFO</sourceObjSchema>
+<sourceObjName>BRANDCODE</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:37 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2FCF4609-1145-A3BB-BF24-6CF2563FB87D" name="PK_GOODINFO">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>PK_GOODINFO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:37 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E4E3F0D-3454-06A2-FD1E-EC57C5F822D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="964F8336-C170-412A-E6D3-68A0C5FE98BD" schemaObject="E1FBF094-9636-BD8C-DC31-79320F7479D7" name="PK_GOODINFO">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>PK_GOODINFO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:37 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E4E3F0D-3454-06A2-FD1E-EC57C5F822D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="25B73791-797B-C0D4-9EFE-5A68EFC66406" name="SYS_C007482">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:38 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52283D44-D322-099F-AFAD-CB7B0F2916CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

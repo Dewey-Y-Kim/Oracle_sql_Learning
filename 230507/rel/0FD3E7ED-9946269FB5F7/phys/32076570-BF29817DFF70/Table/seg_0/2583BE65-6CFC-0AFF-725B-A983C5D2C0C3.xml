@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="SELLINFO" directorySegmentName="seg_0" id="2583BE65-6CFC-0AFF-725B-A983C5D2C0C3">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<schemaObject>AD3A6A3A-6F7F-1DA7-3911-6D994BC185C8</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>FC0BAD9C-9C01-AB29-2F0D-4A8734273891</segment>
+<tableSpace>C594EA60-91C8-EB59-86DD-CE6A2A413E15</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="QTT" id="0B372950-841A-B884-C065-00DD3EC156E0">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<defaultValue>1</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="CODE" id="0DC22B9A-AB81-A125-547C-1B3B9C47919A">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OPTRESULT" id="483674F1-C5C8-09A4-DB7A-D7C820022F5C">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMPNO" id="579ACB1C-2CD0-0DEC-6D88-96BE1A2E0E59">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SELLSTATUS" id="59924815-BF0A-1D3B-F636-55730B35ECEA">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="COUPONCODE" id="63864106-B7D7-C57E-82A6-0C3A1932A360">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GOODNO" id="7799514E-7F39-B851-CA70-B0DA4F3D0ED8">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUSTOMNO" id="7D2780B6-37F5-623C-D5C4-4DF555E85595">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROMISEDATE" id="8FB90985-A2ED-8E5C-8714-F1B37C119CE5">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SELLNO" id="BCE482C3-FBD7-CC16-64E4-256E7F641874">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REALPRICE" id="D5FF9958-6FC6-3638-5A77-64AB5D9B585B">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SELLDATE" id="F5B4595E-85B0-0573-26C8-4959FC132FD7">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<defaultValue>sysdate</defaultValue>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_SELLINFO_TO_CUSTOMINFO" id="B572AAD4-370F-22AE-5B8E-3977BA80C6FB">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+</TableProxyOraclev11g>

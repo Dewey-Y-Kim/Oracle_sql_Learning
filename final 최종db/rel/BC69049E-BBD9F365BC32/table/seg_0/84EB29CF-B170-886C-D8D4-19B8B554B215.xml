@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="84EB29CF-B170-886C-D8D4-19B8B554B215" schemaObject="E1FBF094-9636-BD8C-DC31-79320F7479D7" name="CAMPINVEN">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>CAMPINVEN</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:36 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODE" id="A1211EBC-A839-53CA-E584-71C515FDBCCE">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>CAMPINVEN</sourceObjSchema>
+<sourceObjName>CODE</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:37 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4FED03C2-ED9C-2A07-46E1-23CCF62CE36F" referredColumn="28CA4A28-34CE-461C-42E3-175B8B416E90"/>
+</associations>
+</Column>
+<Column name="GOODNO" id="4CEAF7AE-C96F-0B11-EE13-D0DDD900DAF7">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>CAMPINVEN</sourceObjSchema>
+<sourceObjName>GOODNO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:37 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7 BYTE</dataTypeSize>
+<ownDataTypeParameters>7 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDLE" id="BDB302F7-35A4-67A6-3A6E-9B0D677BA2A9">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>CAMPINVEN</sourceObjSchema>
+<sourceObjName>IDLE</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:37 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOW" id="9A198BA4-2F03-8E05-568A-7066119FE8F5">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>CAMPINVEN</sourceObjSchema>
+<sourceObjName>NOW</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:37 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0E8811E1-1753-BEAB-F4F3-A94986178FA1" name="FK_CAMPINFO_TO_CAMPINVEN">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:38 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1211EBC-A839-53CA-E584-71C515FDBCCE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

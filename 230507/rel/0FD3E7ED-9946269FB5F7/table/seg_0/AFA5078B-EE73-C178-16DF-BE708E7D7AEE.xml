@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AFA5078B-EE73-C178-16DF-BE708E7D7AEE" schemaObject="AD3A6A3A-6F7F-1DA7-3911-6D994BC185C8" name="SELLERINFO">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>SELLERINFO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>B6DFA2E3-69DE-5981-168F-B391C3575B5C</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SELLERCODE" id="566C833F-BA64-3956-780D-43F8E89EDD13">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SELLERINFO</sourceObjSchema>
+<sourceObjName>SELLERCODE</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>22F9EED8-3341-D6D2-8B52-4687C7D943A0</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SELLERCEO" id="D2C4BA84-D94E-02F8-85A2-E94382487487">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SELLERINFO</sourceObjSchema>
+<sourceObjName>SELLERCEO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>E4C6DC91-25B0-4C96-96CB-AF540C743FCA</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 BYTE</dataTypeSize>
+<ownDataTypeParameters>300 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SELLERNAME" id="AE45E92F-E529-270D-6DDF-41726E9A08C8">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SELLERINFO</sourceObjSchema>
+<sourceObjName>SELLERNAME</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>58D5B4E3-54B8-1D7D-0714-F59EF2B32AF4</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SELLERNO" id="A899D493-A447-9EDA-187B-642AF462CB3E">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SELLERINFO</sourceObjSchema>
+<sourceObjName>SELLERNO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>AE77ECA7-AA8B-D73F-29F0-D233A63B9D1F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 BYTE</dataTypeSize>
+<ownDataTypeParameters>12 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SELLERTEL" id="9E68CDCF-3854-AD9F-1B85-C58A80CD58FD">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SELLERINFO</sourceObjSchema>
+<sourceObjName>SELLERTEL</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>75B66C66-6188-3D33-4432-C3B5966A416B</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SELLERFAX" id="B50BA074-F56E-2A8C-E100-269E347E6AF6">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SELLERINFO</sourceObjSchema>
+<sourceObjName>SELLERFAX</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>BAE555AF-24E2-4D4F-4365-6B4D7ABBED5F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0F7B7062-9D67-B937-AE5D-5456E3F2AAD5" name="PK_SELLERINFO">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>PK_SELLERINFO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>4D55B0B7-A89B-98A7-3A26-FAF26F6BFB51</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="566C833F-BA64-3956-780D-43F8E89EDD13"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0E1A3B98-F6D2-583B-0F44-9720BF14E836" schemaObject="AD3A6A3A-6F7F-1DA7-3911-6D994BC185C8" name="PK_SELLERINFO">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>PK_SELLERINFO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>D2562565-9151-C84C-60AF-1EE704B1F0D3</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="566C833F-BA64-3956-780D-43F8E89EDD13"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

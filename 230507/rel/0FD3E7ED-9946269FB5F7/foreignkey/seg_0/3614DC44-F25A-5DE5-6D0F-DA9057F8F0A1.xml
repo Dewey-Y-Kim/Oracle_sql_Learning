@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3614DC44-F25A-5DE5-6D0F-DA9057F8F0A1" containerWithKeyObject="9EC1EB1B-0F0E-0C67-3A3D-D41386E85529" localFKIndex="CFBB5B87-529A-3C71-DEA8-32DE22B96E6D" name="FK_EMPINFO_TO_NOTICEBBS">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>FK_EMPINFO_TO_NOTICEBBS</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>F484F180-2088-438A-80F9-FC0EE41933F3</importedID>
+<referredTableLongName>SCOTT.EMPINFO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D077205B-C86F-8170-0DB9-0DF4C9ECE899</referredTableID>
+<keyObject>8546A169-8366-555C-E65D-C455E037DAB8</keyObject>
+<referredKeyID>8546A169-8366-555C-E65D-C455E037DAB8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>EMPNO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3AE2C0C0-42A0-08E1-4ECB-FF9707253147" schemaObject="AD3A6A3A-6F7F-1DA7-3911-6D994BC185C8" name="CAMPINFO">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>CAMPINFO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>C8A17316-88D2-C311-900C-51682051032A</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODE" id="9B561FB6-30D3-1C90-A63C-ECF5DED4BDF2">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>CAMPINFO</sourceObjSchema>
+<sourceObjName>CODE</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>5D00AE2B-41A2-3852-5A5A-D4B99FF7C4EC</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAMPNAME" id="095D8871-587B-635E-B7FF-007DF41D9CEA">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>CAMPINFO</sourceObjSchema>
+<sourceObjName>CAMPNAME</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>6CCA7C1F-B3FD-2872-8B59-13D93F08A16F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPNO" id="810282FE-9C7F-F675-0984-8819AC759530">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>CAMPINFO</sourceObjSchema>
+<sourceObjName>EMPNO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>3244A23F-8151-6DE7-9013-A4C61E1ABF64</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BUSSINESSNO" id="AB4CFCF6-EB42-2838-E267-74E9427074B0">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>CAMPINFO</sourceObjSchema>
+<sourceObjName>BUSSINESSNO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>996202BF-92A3-8528-D0FF-947A75CDAE89</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 BYTE</dataTypeSize>
+<ownDataTypeParameters>12 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TEL" id="E6959240-5FEB-4657-7A43-FF9DBA441AE4">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>CAMPINFO</sourceObjSchema>
+<sourceObjName>TEL</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>14EC5713-7282-86B0-0841-DC39B6D08923</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FAX" id="D4B1E50C-3812-96BC-0FF7-74D334D3A1FF">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>CAMPINFO</sourceObjSchema>
+<sourceObjName>FAX</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>04EAE8DB-DC50-C754-BDFF-9A31E89539B0</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="51FE957D-918A-46DE-A6FA-589FC5F54165" name="PK_CAMPINFO">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>PK_CAMPINFO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>74D90E4C-0E8B-3856-6B48-6F0B6A7F982F</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B561FB6-30D3-1C90-A63C-ECF5DED4BDF2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FA55A2AA-726C-CA60-1266-AC452561E259" schemaObject="AD3A6A3A-6F7F-1DA7-3911-6D994BC185C8" name="PK_CAMPINFO">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>PK_CAMPINFO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>AD5A45F4-37A6-D9C2-0F35-3AD8AEB1A2E5</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B561FB6-30D3-1C90-A63C-ECF5DED4BDF2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

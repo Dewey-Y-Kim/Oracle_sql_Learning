@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FA2E7E77-FD19-6439-B34E-FF2464EF8103" schemaObject="AD3A6A3A-6F7F-1DA7-3911-6D994BC185C8" name="CAMPINVEN">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>CAMPINVEN</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>E2180F4D-F4F1-C58C-2AB5-85DB3780B51B</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODE" id="D8CB5950-C40C-0E35-702A-AC987C378056">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>CAMPINVEN</sourceObjSchema>
+<sourceObjName>CODE</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>87ABCD10-BCB9-A572-A8BD-B0527E15DA0F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6DFDD0BD-B862-C753-5022-5C5F7E97BE0F" referredColumn="9B561FB6-30D3-1C90-A63C-ECF5DED4BDF2"/>
+</associations>
+</Column>
+<Column name="GOODNO" id="4D47B545-684F-3E8A-64B9-3E02DBF79448">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>CAMPINVEN</sourceObjSchema>
+<sourceObjName>GOODNO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>43F198C7-B737-B084-3CE7-C8C14956C7CC</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7 BYTE</dataTypeSize>
+<ownDataTypeParameters>7 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDLE" id="28A48670-4F78-50CC-87AE-517943721103">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>CAMPINVEN</sourceObjSchema>
+<sourceObjName>IDLE</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>7F73F93F-1956-9E36-4927-1C220A467C77</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOW" id="D763FD5C-7525-5703-2FDF-212F039889E3">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>CAMPINVEN</sourceObjSchema>
+<sourceObjName>NOW</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>90B26F10-2511-8C35-2D67-65B8D3FEDF4F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="35F9BBA1-B183-9F5E-7948-CF7CBDA8A59B" name="FK_CAMPINFO_TO_CAMPINVEN">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8CB5950-C40C-0E35-702A-AC987C378056"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

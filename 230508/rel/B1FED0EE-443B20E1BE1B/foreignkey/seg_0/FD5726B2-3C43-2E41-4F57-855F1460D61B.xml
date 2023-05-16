@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FD5726B2-3C43-2E41-4F57-855F1460D61B" containerWithKeyObject="CFB0F847-C38D-D9C8-E294-0C3DD8919DA3" localFKIndex="479B07A1-620C-FA64-9785-BF87C8085C93" name="FK_EMPINFO_TO_NOTICEBBS">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>FK_EMPINFO_TO_NOTICEBBS</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-08 01:50:46 UTC</createdTime>
+<ownerDesignName>230508</ownerDesignName>
+<referredTableLongName>SCOTT.EMPINFO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>58C85735-37FB-6945-99C8-2E53E8375D1E</referredTableID>
+<keyObject>8A807A2E-3842-B653-835F-A98A1191ABE2</keyObject>
+<referredKeyID>8A807A2E-3842-B653-835F-A98A1191ABE2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>EMPNO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,205 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="740461F1-131B-7BC4-EDC1-3CF1C988B161" schemaObject="7FB46DDE-DD44-A084-AF97-E647E9C974F6" name="CUSTOMINFO">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>CUSTOMINFO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-08 01:50:44 UTC</createdTime>
+<ownerDesignName>230508</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CUSTOMNO" id="FFDCA444-93D2-2CA7-1F01-96861E03D82E">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>CUSTOMINFO</sourceObjSchema>
+<sourceObjName>CUSTOMNO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-08 01:50:45 UTC</createdTime>
+<ownerDesignName>230508</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="1885A23F-1DEE-9D30-671C-88F534FBCC1A">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>CUSTOMINFO</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-08 01:50:45 UTC</createdTime>
+<ownerDesignName>230508</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 BYTE</dataTypeSize>
+<ownDataTypeParameters>300 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BIRTH" id="13CDC900-0B4E-E374-070E-48A12D4D1194">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>CUSTOMINFO</sourceObjSchema>
+<sourceObjName>BIRTH</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-08 01:50:45 UTC</createdTime>
+<ownerDesignName>230508</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="A5030379-AAF5-76AB-9C26-8E99D1ECEB3C">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>CUSTOMINFO</sourceObjSchema>
+<sourceObjName>EMAIL</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-08 01:50:45 UTC</createdTime>
+<ownerDesignName>230508</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 BYTE</dataTypeSize>
+<ownDataTypeParameters>300 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDR1" id="83DEA303-4DB4-4B08-B071-C10DCC315074">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>CUSTOMINFO</sourceObjSchema>
+<sourceObjName>ADDR1</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-08 01:50:45 UTC</createdTime>
+<ownerDesignName>230508</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TEL" id="CD41E71C-ADE6-B831-4011-FBF65B7C95EB">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>CUSTOMINFO</sourceObjSchema>
+<sourceObjName>TEL</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-08 01:50:45 UTC</createdTime>
+<ownerDesignName>230508</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GENDER" id="140C6201-94D1-A1DF-8F23-149229EE87B9">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>CUSTOMINFO</sourceObjSchema>
+<sourceObjName>GENDER</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-08 01:50:45 UTC</createdTime>
+<ownerDesignName>230508</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGISTDATE" id="80BC8C51-47CE-C4B3-BCD8-8FA77E1C4450">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>CUSTOMINFO</sourceObjSchema>
+<sourceObjName>REGISTDATE</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-08 01:50:45 UTC</createdTime>
+<ownerDesignName>230508</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>sysdate</defaultValue>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODE" id="C611B202-D261-C5B3-7D62-3C44AC7C359A">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>CUSTOMINFO</sourceObjSchema>
+<sourceObjName>CODE</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-08 01:50:45 UTC</createdTime>
+<ownerDesignName>230508</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4D447793-B787-CA23-E030-977365357F11" referredColumn="58227560-D7EC-938A-1622-D6B61C469B64"/>
+</associations>
+</Column>
+<Column name="ADDR2" id="4A2CD4D6-C5C7-D932-84C3-553ECF475DEA">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>CUSTOMINFO</sourceObjSchema>
+<sourceObjName>ADDR2</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-08 01:50:45 UTC</createdTime>
+<ownerDesignName>230508</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7151A3D8-2222-F64B-B729-E2BA8DC6D1F3" name="PK_CUSTOMINFO">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>PK_CUSTOMINFO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-08 01:50:45 UTC</createdTime>
+<ownerDesignName>230508</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FFDCA444-93D2-2CA7-1F01-96861E03D82E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4858FE4E-4B27-3155-71D8-43F792F26CCD" schemaObject="7FB46DDE-DD44-A084-AF97-E647E9C974F6" name="PK_CUSTOMINFO">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>PK_CUSTOMINFO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-08 01:50:45 UTC</createdTime>
+<ownerDesignName>230508</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FFDCA444-93D2-2CA7-1F01-96861E03D82E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A5A34E03-1E99-F631-2083-D9CA1C81EA10" name="FK_CAMPINFO_TO_CUSTOMINFO">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-08 01:50:46 UTC</createdTime>
+<ownerDesignName>230508</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C611B202-D261-C5B3-7D62-3C44AC7C359A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

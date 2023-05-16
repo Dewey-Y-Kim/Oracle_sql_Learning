@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1D1FBB37-E4F6-326F-F987-FAD8A4527493" schemaObject="E1FBF094-9636-BD8C-DC31-79320F7479D7" name="EMPINFO">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>EMPINFO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:36 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EMPNO" id="2352A496-2295-71D1-D6BD-B109B4184C61">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>EMPINFO</sourceObjSchema>
+<sourceObjName>EMPNO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:37 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODE" id="8D7F921A-6CC9-4A50-C342-443BCCF46808">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>EMPINFO</sourceObjSchema>
+<sourceObjName>CODE</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:37 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BD74FB36-58E3-F092-14E5-B1E2E611B37C" referredColumn="28CA4A28-34CE-461C-42E3-175B8B416E90"/>
+</associations>
+</Column>
+<Column name="ENAME" id="D19F5A4A-FEC6-A891-328C-1CD0DF695A89">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>EMPINFO</sourceObjSchema>
+<sourceObjName>ENAME</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:37 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 BYTE</dataTypeSize>
+<ownDataTypeParameters>300 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AUTH" id="70EA2452-9168-306F-CA92-6882442C133A">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>EMPINFO</sourceObjSchema>
+<sourceObjName>AUTH</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:37 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPDATE" id="C576589A-8B1F-F0A3-2049-4B8E5E3E9F79">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>EMPINFO</sourceObjSchema>
+<sourceObjName>EMPDATE</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:37 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>Sysdate</defaultValue>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PWD" id="EBB45259-C7B7-0956-8962-AF335837C982">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>EMPINFO</sourceObjSchema>
+<sourceObjName>PWD</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:37 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1BD2EA38-C93C-39F4-34E5-0855511F3727" name="PK_EMPINFO">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>PK_EMPINFO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:37 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2352A496-2295-71D1-D6BD-B109B4184C61"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="229B1ACC-2F81-2EC9-DF26-FD0ACC727D91" schemaObject="E1FBF094-9636-BD8C-DC31-79320F7479D7" name="PK_EMPINFO">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>PK_EMPINFO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:37 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2352A496-2295-71D1-D6BD-B109B4184C61"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1CF92137-FD73-4006-5A45-2D4305EA8A12" name="FK_CAMPINFO_TO_EMPINFO">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:38 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D7F921A-6CC9-4A50-C342-443BCCF46808"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

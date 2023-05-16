@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9FCBDB43-1839-1B6F-86C1-B5405D9CD38F" containerWithKeyObject="F870CD95-2DDA-BAE5-2EC6-2114BDCD2418" localFKIndex="19B7E95D-C035-254E-E291-DB6C9E584FE4" name="FK_OPTOMETRY_TO_CUSTOMINFO">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>FK_OPTOMETRY_TO_CUSTOMINFO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-08 01:50:46 UTC</createdTime>
+<ownerDesignName>230508</ownerDesignName>
+<referredTableLongName>SCOTT.CUSTOMINFO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>740461F1-131B-7BC4-EDC1-3CF1C988B161</referredTableID>
+<keyObject>7151A3D8-2222-F64B-B729-E2BA8DC6D1F3</keyObject>
+<referredKeyID>7151A3D8-2222-F64B-B729-E2BA8DC6D1F3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CUSTOMNO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

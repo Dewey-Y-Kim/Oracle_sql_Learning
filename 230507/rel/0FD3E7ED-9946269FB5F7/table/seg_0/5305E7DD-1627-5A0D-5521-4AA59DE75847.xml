@@ -1,0 +1,188 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5305E7DD-1627-5A0D-5521-4AA59DE75847" schemaObject="AD3A6A3A-6F7F-1DA7-3911-6D994BC185C8" name="GOODINFO">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>GOODINFO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>09534035-A702-1BA9-90EE-4E7BE3FED792</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="GOODNO" id="A2F3D812-FD04-91EC-A4FE-4BF2D9913697">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>GOODINFO</sourceObjSchema>
+<sourceObjName>GOODNO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>CC84F136-2A6E-D6AB-2241-F79C3CF9595F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,7,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SELLERCODE" id="A10E005C-471E-5501-9380-CFAB1570254E">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>GOODINFO</sourceObjSchema>
+<sourceObjName>SELLERCODE</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>1F5B9846-842E-A069-C555-281BF028A579</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6647AB15-EB5F-AE94-E1BF-89EB595639DF" referredColumn="566C833F-BA64-3956-780D-43F8E89EDD13"/>
+</associations>
+</Column>
+<Column name="CLASSIFYNO" id="CF32DD9E-13C5-62AC-16DA-72F392C9D32E">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>GOODINFO</sourceObjSchema>
+<sourceObjName>CLASSIFYNO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>2D69C110-FA0C-C3E5-7AD9-5179D0C5BCC1</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MODEL" id="944486CD-EA11-AA8D-D8B7-AFFD7ED5BF82">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>GOODINFO</sourceObjSchema>
+<sourceObjName>MODEL</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>A8269796-1D19-2020-9CC8-F596A9222718</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 BYTE</dataTypeSize>
+<ownDataTypeParameters>500 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BUYPRICE" id="E38EC788-6417-42BB-A176-1363ED97CFB8">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>GOODINFO</sourceObjSchema>
+<sourceObjName>BUYPRICE</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>6870E6B5-4670-5B56-358E-8C6CEA8B707D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,7,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SELLPRICE" id="E4566FD5-D9D9-D0BF-0490-64301F047011">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>GOODINFO</sourceObjSchema>
+<sourceObjName>SELLPRICE</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>8138C2D4-66CA-A231-E5E9-F80938F30B24</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,7,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="A539BBD6-933D-2AAB-9855-2C666F4BA9A2">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>GOODINFO</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>A03CC9B2-B6E2-351C-4225-B6D1E61BF093</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BRANDCODE" id="4D57D7EA-9841-3A27-8DB0-06CBD9F5A225">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>GOODINFO</sourceObjSchema>
+<sourceObjName>BRANDCODE</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>47D0717F-936C-4D2C-FD21-844CCD329AC5</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9AAC3016-F14E-C61B-8B7A-E10B3A1B1715" name="PK_GOODINFO">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>PK_GOODINFO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>45C0FC0C-F0E5-AF78-7F76-F615879583E8</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2F3D812-FD04-91EC-A4FE-4BF2D9913697"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7FAC8981-9E24-5D4A-8410-FF405B8145B9" schemaObject="AD3A6A3A-6F7F-1DA7-3911-6D994BC185C8" name="PK_GOODINFO">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>PK_GOODINFO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>0DFA0F31-3569-2315-0A79-D7AE41D0CA08</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2F3D812-FD04-91EC-A4FE-4BF2D9913697"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5FD88AB3-E4B7-6CD4-CC33-404EFDED35F6" name="SYS_C007482">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A10E005C-471E-5501-9380-CFAB1570254E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

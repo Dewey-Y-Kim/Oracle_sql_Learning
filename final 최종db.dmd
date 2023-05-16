@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="final 최종db" id="1197A711-7537-6118-CADC-826BC7485A51" version="3.5">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:48:57 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>1197A711-7537-6118-CADC-826BC7485A51</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="88FB50EA-1BCD-6E22-68ED-69D02E9590FF">
+<designStoragePath>/</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="7995D187-BB1B-2D6C-C2DE-BF8B92B701AE">
+<designStoragePath>/</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

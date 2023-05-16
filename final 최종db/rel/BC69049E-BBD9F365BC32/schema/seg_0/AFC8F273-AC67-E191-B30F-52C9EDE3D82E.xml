@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="MDSYS" directorySegmentName="seg_0" id="AFC8F273-AC67-E191-B30F-52C9EDE3D82E">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:56:31 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+<importedID>C018A22A-2473-F5BD-633C-E32A2857CC73</importedID>
+</SchemaObject>

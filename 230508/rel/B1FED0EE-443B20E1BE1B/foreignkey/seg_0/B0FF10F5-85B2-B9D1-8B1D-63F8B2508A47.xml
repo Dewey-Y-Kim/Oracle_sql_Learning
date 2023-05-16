@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B0FF10F5-85B2-B9D1-8B1D-63F8B2508A47" containerWithKeyObject="E0977582-24B1-9B78-EC7F-BBB011472BBB" localFKIndex="64A20009-6895-B564-5A46-13C4FE50AC52" name="FK_REFUND_TO_GOODINFO">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>FK_REFUND_TO_GOODINFO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-08 01:50:46 UTC</createdTime>
+<ownerDesignName>230508</ownerDesignName>
+<referredTableLongName>SCOTT.GOODINFO</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>74735789-1104-5485-5EDC-EE192E00C0DE</referredTableID>
+<keyObject>B0226F2E-B328-56BB-EBD0-23CE1A12E24E</keyObject>
+<referredKeyID>B0226F2E-B328-56BB-EBD0-23CE1A12E24E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>GOODNO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

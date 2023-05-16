@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="92B6A2C6-DC7C-7E01-44DE-FC5982A84FBC" schemaObject="AD3A6A3A-6F7F-1DA7-3911-6D994BC185C8" name="REFUNDLIST">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>REFUNDLIST</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>5CDC8132-509A-20C6-883B-81104536D18D</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="REFUNDNO" id="E0747C03-DDA1-2F5B-6AA9-0621D314B0C1">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>REFUNDLIST</sourceObjSchema>
+<sourceObjName>REFUNDNO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>375F83BB-4763-B6D9-1982-94FC86B71BD3</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GOODNO" id="48DA6E15-3E0D-A704-ED99-565F87DE7643">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>REFUNDLIST</sourceObjSchema>
+<sourceObjName>GOODNO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>C2821542-1273-7195-9095-026C50543515</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,7,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C526888A-39F1-7986-FF81-ACE86B348872" referredColumn="A2F3D812-FD04-91EC-A4FE-4BF2D9913697"/>
+</associations>
+</Column>
+<Column name="QTT" id="D30DFFC2-3E9E-124B-2BA4-47B6D901A538">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>REFUNDLIST</sourceObjSchema>
+<sourceObjName>QTT</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>B296897C-9283-0896-B21D-EACF63F342F0</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGISTDATE" id="BABA42E9-C907-F0B1-E59D-FE13A7FB5463">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>REFUNDLIST</sourceObjSchema>
+<sourceObjName>REGISTDATE</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>7E90713B-B2D8-3327-796A-F8615BB54397</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>Sysdate</defaultValue>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4152C397-46D4-C19E-77ED-A06E11C631E4" name="FK_REFUND_TO_GOODINFO">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:28:10 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48DA6E15-3E0D-A704-ED99-565F87DE7643"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

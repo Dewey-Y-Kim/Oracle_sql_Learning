@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D077205B-C86F-8170-0DB9-0DF4C9ECE899" schemaObject="AD3A6A3A-6F7F-1DA7-3911-6D994BC185C8" name="EMPINFO">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>EMPINFO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>4523543B-2D48-87B1-55CB-ECC8F08FC191</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EMPNO" id="45371CC2-7720-9042-29C5-1D9E0E14D57A">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>EMPINFO</sourceObjSchema>
+<sourceObjName>EMPNO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>09C2FB49-D54F-CDA8-CDEC-EE59B3070F71</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODE" id="1C594DFD-F1E7-4FD8-BAD2-FBCDCE1E3E27">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>EMPINFO</sourceObjSchema>
+<sourceObjName>CODE</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>F0EF299F-5074-62DF-DE05-2DD6AD04F91A</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C50517DF-9819-C787-1A4D-9C0515071B79" referredColumn="9B561FB6-30D3-1C90-A63C-ECF5DED4BDF2"/>
+</associations>
+</Column>
+<Column name="ENAME" id="1E7ABCB6-627F-1058-DBFD-3C643269CA26">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>EMPINFO</sourceObjSchema>
+<sourceObjName>ENAME</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>528C4DE9-7025-D4DC-E08D-70720E0FDC57</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 BYTE</dataTypeSize>
+<ownDataTypeParameters>300 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AUTH" id="112C7733-15B6-E64D-E3E2-1EBFC44C10DC">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>EMPINFO</sourceObjSchema>
+<sourceObjName>AUTH</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>0BFE490F-3C74-E0F8-FA97-11ACC55A42A6</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPDATE" id="DEA031D9-30F6-D0FF-731C-6E32E159D42B">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>EMPINFO</sourceObjSchema>
+<sourceObjName>EMPDATE</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>62B41D55-7A25-A06C-2EEC-3C0F78533ED7</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>Sysdate</defaultValue>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PWD" id="786D656D-F584-1F24-6E68-A0A9C9785629">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>EMPINFO</sourceObjSchema>
+<sourceObjName>PWD</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>66D73B8B-E9DF-9515-25BE-433C06477B02</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8546A169-8366-555C-E65D-C455E037DAB8" name="PK_EMPINFO">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>PK_EMPINFO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>964B0E32-4B96-DB0B-88BE-DCE0E20E0C23</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="45371CC2-7720-9042-29C5-1D9E0E14D57A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="071ED210-95D0-DE1C-C902-B3AC948AA743" schemaObject="AD3A6A3A-6F7F-1DA7-3911-6D994BC185C8" name="PK_EMPINFO">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>PK_EMPINFO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<importedID>D1367974-C9B9-C027-66B8-76CB07D0670F</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="45371CC2-7720-9042-29C5-1D9E0E14D57A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2CBBD965-48B9-9C01-F913-E27FD9B775FE" name="FK_CAMPINFO_TO_EMPINFO">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C594DFD-F1E7-4FD8-BAD2-FBCDCE1E3E27"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

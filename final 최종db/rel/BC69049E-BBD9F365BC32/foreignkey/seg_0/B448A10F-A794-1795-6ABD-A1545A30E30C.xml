@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B448A10F-A794-1795-6ABD-A1545A30E30C" containerWithKeyObject="561C727C-4999-A294-16DC-CCEA429E4EBA" localFKIndex="531B28FB-D0AF-8B77-694F-EAB8CB18FEFD" name="FK_SELLINFO_TO_GOODINFO">
+<sourceConnName>Nas-scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>FK_SELLINFO_TO_GOODINFO</sourceObjName>
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 02:04:52 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+<importedID>3FB94AEA-F5D4-CC86-1675-A294C460002D</importedID>
+<referredTableLongName>SCOTT.GOODINFO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CBB336F1-C78B-194C-B350-A60383B1231B</referredTableID>
+<keyObject>2FCF4609-1145-A3BB-BF24-6CF2563FB87D</keyObject>
+<referredKeyID>2FCF4609-1145-A3BB-BF24-6CF2563FB87D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>GOODNO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

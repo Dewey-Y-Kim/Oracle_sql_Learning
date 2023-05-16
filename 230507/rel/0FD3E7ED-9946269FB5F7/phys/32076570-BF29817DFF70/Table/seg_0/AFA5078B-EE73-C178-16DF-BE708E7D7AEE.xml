@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="SELLERINFO" directorySegmentName="seg_0" id="AFA5078B-EE73-C178-16DF-BE708E7D7AEE">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<schemaObject>AD3A6A3A-6F7F-1DA7-3911-6D994BC185C8</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>FC0BAD9C-9C01-AB29-2F0D-4A8734273891</segment>
+<tableSpace>C594EA60-91C8-EB59-86DD-CE6A2A413E15</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="SELLERCODE" id="566C833F-BA64-3956-780D-43F8E89EDD13">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SELLERTEL" id="9E68CDCF-3854-AD9F-1B85-C58A80CD58FD">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SELLERNO" id="A899D493-A447-9EDA-187B-642AF462CB3E">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SELLERNAME" id="AE45E92F-E529-270D-6DDF-41726E9A08C8">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SELLERFAX" id="B50BA074-F56E-2A8C-E100-269E347E6AF6">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SELLERCEO" id="D2C4BA84-D94E-02F8-85A2-E94382487487">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_SELLERINFO" id="0E1A3B98-F6D2-583B-0F44-9720BF14E836">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<schemaObject>AD3A6A3A-6F7F-1DA7-3911-6D994BC185C8</schemaObject>
+<segment>F1D56984-CF21-6170-527D-554B342873D7</segment>
+<tableSpace>C594EA60-91C8-EB59-86DD-CE6A2A413E15</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_SELLERINFO" id="0F7B7062-9D67-B937-AE5D-5456E3F2AAD5">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<segment>F1D56984-CF21-6170-527D-554B342873D7</segment>
+<tableSpace>C594EA60-91C8-EB59-86DD-CE6A2A413E15</tableSpace>
+<existingIndex>0E1A3B98-F6D2-583B-0F44-9720BF14E836</existingIndex>
+<indexSegment>F1D56984-CF21-6170-527D-554B342873D7</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

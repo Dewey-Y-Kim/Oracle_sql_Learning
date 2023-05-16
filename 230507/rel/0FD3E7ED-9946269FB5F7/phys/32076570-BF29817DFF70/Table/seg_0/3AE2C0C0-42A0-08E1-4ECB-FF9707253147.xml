@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="CAMPINFO" directorySegmentName="seg_0" id="3AE2C0C0-42A0-08E1-4ECB-FF9707253147">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<schemaObject>AD3A6A3A-6F7F-1DA7-3911-6D994BC185C8</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>FC0BAD9C-9C01-AB29-2F0D-4A8734273891</segment>
+<tableSpace>C594EA60-91C8-EB59-86DD-CE6A2A413E15</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CAMPNAME" id="095D8871-587B-635E-B7FF-007DF41D9CEA">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMPNO" id="810282FE-9C7F-F675-0984-8819AC759530">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODE" id="9B561FB6-30D3-1C90-A63C-ECF5DED4BDF2">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BUSSINESSNO" id="AB4CFCF6-EB42-2838-E267-74E9427074B0">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FAX" id="D4B1E50C-3812-96BC-0FF7-74D334D3A1FF">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TEL" id="E6959240-5FEB-4657-7A43-FF9DBA441AE4">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_CAMPINFO" id="FA55A2AA-726C-CA60-1266-AC452561E259">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<schemaObject>AD3A6A3A-6F7F-1DA7-3911-6D994BC185C8</schemaObject>
+<segment>F1D56984-CF21-6170-527D-554B342873D7</segment>
+<tableSpace>C594EA60-91C8-EB59-86DD-CE6A2A413E15</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_CAMPINFO" id="51FE957D-918A-46DE-A6FA-589FC5F54165">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 03:23:36 UTC</createdTime>
+<ownerDesignName>230507</ownerDesignName>
+<segment>F1D56984-CF21-6170-527D-554B342873D7</segment>
+<tableSpace>C594EA60-91C8-EB59-86DD-CE6A2A413E15</tableSpace>
+<existingIndex>FA55A2AA-726C-CA60-1266-AC452561E259</existingIndex>
+<indexSegment>F1D56984-CF21-6170-527D-554B342873D7</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

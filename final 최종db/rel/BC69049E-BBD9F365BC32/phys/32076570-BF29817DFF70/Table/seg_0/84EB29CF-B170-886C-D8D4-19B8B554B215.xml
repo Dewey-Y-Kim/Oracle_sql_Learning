@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="CAMPINVEN" directorySegmentName="seg_0" id="84EB29CF-B170-886C-D8D4-19B8B554B215">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:36 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+<schemaObject>E1FBF094-9636-BD8C-DC31-79320F7479D7</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>76C09260-6A33-F4B7-B203-2F94B15C14D2</segment>
+<tableSpace>165E0A24-D4BD-440D-1684-DA7D3DBE7712</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="GOODNO" id="4CEAF7AE-C96F-0B11-EE13-D0DDD900DAF7">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:37 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOW" id="9A198BA4-2F03-8E05-568A-7066119FE8F5">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:37 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODE" id="A1211EBC-A839-53CA-E584-71C515FDBCCE">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:37 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IDLE" id="BDB302F7-35A4-67A6-3A6E-9B0D677BA2A9">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:37 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_CAMPINFO_TO_CAMPINVEN" id="0E8811E1-1753-BEAB-F4F3-A94986178FA1">
+<createdBy>dewey</createdBy>
+<createdTime>2023-05-07 01:49:38 UTC</createdTime>
+<ownerDesignName>final 최종db</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+</TableProxyOraclev11g>
